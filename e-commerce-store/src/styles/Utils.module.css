@@ -1,0 +1,9 @@
+.max-width {
+    max-width: 100rem;
+    /* margin: 0 auto; */
+}
+
+.horizontal-list {
+    gap: 1rem;
+    display: flex;
+}

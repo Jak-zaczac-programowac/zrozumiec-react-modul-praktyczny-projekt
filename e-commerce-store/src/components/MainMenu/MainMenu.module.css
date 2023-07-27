@@ -1,0 +1,27 @@
+.menu {
+    composes: horizontal-list from "../../styles/Utils.module.css";
+}
+
+.menu-item {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1.5rem 0;
+    color: var(--color-default-grey);
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: border-bottom, color 0.3s ease;
+}
+
+.menu-item-active,
+.menu-item:hover {
+    color: var(--color-default);
+}
+
+.menu-item-active {
+    border-bottom: 3px solid var(--color-default);
+}
+
+.right-menu {
+    justify-content: flex-end;
+}

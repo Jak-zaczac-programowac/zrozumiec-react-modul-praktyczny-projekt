@@ -1,0 +1,27 @@
+.container {
+    composes: max-width from "../../styles/Utils.module.css";
+    margin: 0 auto;
+}
+
+.products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.product {
+}
+
+.product img {
+    height: 500px;
+}
+
+.name {
+    margin: 0.5rem 0;
+    font-weight: 600;
+}
+
+.product-price {
+    color: var(--color-theme-price);
+    margin-top: 0;
+}
