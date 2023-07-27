@@ -10,6 +10,7 @@
 }
 
 .product {
+    position: relative;
 }
 
 .product img {
@@ -24,4 +25,12 @@
 .product-price {
     color: var(--color-theme-price);
     margin-top: 0;
+}
+
+img.favourite {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 24px;
+    height: 24px;
 }

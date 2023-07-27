@@ -1,9 +1,11 @@
 import styles from "./BestSellers.module.css";
 import SweaterImg from "../../assets/products/sweater.jpg";
+import HeartImg from "../../assets/favourite.svg";
 
 function Product({ product }) {
     return (
         <div className={styles.product}>
+            <img src={HeartImg} className={styles.favourite} />
             <img src={product.image}></img>
             <div>
                 <p className={styles.name}>{product.name}</p>
