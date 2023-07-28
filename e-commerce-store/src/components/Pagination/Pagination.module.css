@@ -1,0 +1,28 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    font-size: 1.2rem;
+    gap: 1rem;
+    color: var(--default-color-grey);
+}
+
+.arrow {
+    width: 0.75rem;
+    height: 0.75rem;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.arrow-left {
+    transform: rotate(90deg);
+}
+
+.arrow-right {
+    transform: rotate(-90deg);
+}

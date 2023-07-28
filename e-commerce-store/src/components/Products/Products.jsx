@@ -1,6 +1,7 @@
 import styles from "./Products.module.css";
 import { ProductCard } from "../ProductCard/ProductCard";
 import SweaterImg from "../../assets/products/sweater.jpg";
+import { Pagination } from "../Pagination/Pagination";
 
 function Products() {
     const products = [
@@ -84,11 +85,17 @@ function Products() {
         },
     ];
     return (
-        <div className={styles.products}>
-            {products.map((product) => (
-                <ProductCard key={product.sku} product={product}></ProductCard>
-            ))}
-        </div>
+        <>
+            <div className={styles.products}>
+                {products.map((product) => (
+                    <ProductCard
+                        key={product.sku}
+                        product={product}
+                    ></ProductCard>
+                ))}
+            </div>
+            <Pagination />
+        </>
     );
 }
 
