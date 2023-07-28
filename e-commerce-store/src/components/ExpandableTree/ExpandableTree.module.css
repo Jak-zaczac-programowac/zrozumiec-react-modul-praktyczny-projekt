@@ -1,0 +1,59 @@
+.tree {
+    width: 15%;
+    flex-shrink: 0;
+    padding-top: 1.2em;
+}
+
+.tree p,
+.link:hover,
+.link-active {
+    font-weight: 600;
+}
+
+.tree > p,
+.inner-list li,
+.top-category {
+    margin-bottom: 0.75rem;
+}
+
+.inner-list li,
+.top-category {
+    cursor: pointer;
+}
+
+.top-list {
+    margin-left: 2rem;
+}
+
+.top-list ul {
+    margin-left: 2rem;
+}
+
+.top-category {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-category img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.inner-list ul {
+    display: none;
+    overflow: hidden;
+    transition: display 0.3s ease-in-out;
+}
+
+.expanded ul {
+    display: block;
+}
+
+.expanded img {
+    transform: rotate(180deg);
+}
+
+.link {
+    color: var(--default-color);
+    text-decoration: none;
+}

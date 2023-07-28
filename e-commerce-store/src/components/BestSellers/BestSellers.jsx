@@ -1,19 +1,7 @@
 import styles from "./BestSellers.module.css";
 import SweaterImg from "../../assets/products/sweater.jpg";
-import HeartImg from "../../assets/favourite.svg";
-
-function Product({ product }) {
-    return (
-        <div className={styles.product}>
-            <img src={HeartImg} className={styles.favourite} />
-            <img src={product.image}></img>
-            <div>
-                <p className={styles.name}>{product.name}</p>
-                <p className={styles["product-price"]}>{product.price}</p>
-            </div>
-        </div>
-    );
-}
+import { ProductCard } from "../ProductCard/ProductCard";
+import { MaxWidthContainer } from "../MaxWidthContainer/MaxWidthContainter";
 
 function BestSellers() {
     const products = [
@@ -21,13 +9,20 @@ function BestSellers() {
             name: "Biały Sweter",
             price: "199zł",
             image: SweaterImg,
-            sku: "abcdef",
+            sku: "abcde",
         },
         {
             name: "Biały Sweter",
             price: "199zł",
             image: SweaterImg,
-            sku: "abcdef",
+            sku: "abcd",
+        },
+
+        {
+            name: "Biały Sweter",
+            price: "199zł",
+            image: SweaterImg,
+            sku: "abc",
         },
 
         {
@@ -36,25 +31,27 @@ function BestSellers() {
             image: SweaterImg,
             sku: "abcdef",
         },
-
         {
             name: "Biały Sweter",
             price: "199zł",
             image: SweaterImg,
-            sku: "abcdef",
+            sku: "abcdefg",
         },
     ];
 
     return (
-        <div className={styles.container}>
+        <MaxWidthContainer>
             <h2>Sprawdź nasze bestellery</h2>
 
             <div className={styles["products-wrapper"]}>
                 {products.map((product) => (
-                    <Product product={product} key={product.sku}></Product>
+                    <ProductCard
+                        product={product}
+                        key={product.sku}
+                    ></ProductCard>
                 ))}
             </div>
-        </div>
+        </MaxWidthContainer>
     );
 }
 

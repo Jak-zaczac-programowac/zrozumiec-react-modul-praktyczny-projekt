@@ -3,11 +3,10 @@ import { MainMenu } from "../../components/MainMenu/MainMenu";
 import { Logo } from "../../components/Logo/Logo";
 import { IconMenu } from "../../components/IconMenu/IconMenu";
 import { CategoriesMenu } from "../../components/CategoriesMenu/CategoriesModule";
-import { SummerSale } from "../../components/SummerSale/SummerSale";
-import { BestSellers } from "../../components/BestSellers/BestSellers";
 import { Footer } from "../../components/Footer/Footer";
+import { Outlet } from "react-router-dom";
 
-function MainPage() {
+function Layout() {
     return (
         <>
             <ThreeColumnsBar>
@@ -16,11 +15,10 @@ function MainPage() {
                 <IconMenu />
             </ThreeColumnsBar>
             <CategoriesMenu />
-            <SummerSale />
-            <BestSellers />
+            <Outlet />
             <Footer />
         </>
     );
 }
 
-export { MainPage };
+export { Layout };

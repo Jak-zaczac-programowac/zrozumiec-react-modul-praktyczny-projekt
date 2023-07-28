@@ -3,14 +3,31 @@ import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { MainPage } from "./views/MainPage/MainPage";
+import { Homepage } from "./views/Homepage/Homepage";
+import { Layout } from "./views/Layout/Layout";
 
 import "./styles/globals.css";
+import { ProductList } from "./views/ProductList/ProductList";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <MainPage />,
+        element: <Layout />,
+        children: [
+            {
+                path: "/:type",
+                children: [
+                    {
+                        path: "",
+                        element: <Homepage />,
+                    },
+                    {
+                        path: "produkty/:category",
+                        element: <ProductList />,
+                    },
+                ],
+            },
+        ],
     },
 ]);
 

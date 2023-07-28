@@ -1,7 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import styles from "./CategoriesMenu.module.css";
+import { MaxWidthContainer } from "../MaxWidthContainer/MaxWidthContainter";
 
 function CategoriesMenu() {
+    const params = useParams();
+
     const categories = [
         {
             path: "odziez",
@@ -12,7 +15,7 @@ function CategoriesMenu() {
             name: "Obuwie",
         },
         {
-            path: "akcerosria",
+            path: "akcesoria",
             name: "Akcesoria",
         },
         {
@@ -27,18 +30,21 @@ function CategoriesMenu() {
 
     return (
         <div className={styles["menu"]}>
-            <ul className={styles["menu-content"]}>
-                {categories.map((category) => (
-                    <li key={category.path}>
-                        <Link
-                            className={styles["menu-item"]}
-                            to={category.path}
-                        >
-                            {category.name}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+            <MaxWidthContainer>
+                <ul className={styles["menu-content"]}>
+                    {categories.map((category) => (
+                        <li key={category.path}>
+                            <Link
+                                className={styles["menu-item"]}
+                                to={`/${params.type}/produkty/${category.path}`}
+                                relative="path"
+                            >
+                                {category.name}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </MaxWidthContainer>
         </div>
     );
 }

@@ -12,12 +12,13 @@ body {
 }
 
 body,
+ol,
 ul,
 p {
     padding: 0;
     margin: 0;
 }
 
-ul li {
+li {
     list-style: none;
 }

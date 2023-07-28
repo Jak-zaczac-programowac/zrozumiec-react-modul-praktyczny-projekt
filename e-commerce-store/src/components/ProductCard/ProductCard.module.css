@@ -1,0 +1,32 @@
+.product-card {
+    position: relative;
+}
+
+.product-card img {
+    height: 400px;
+}
+
+.name {
+    margin: 0.5rem 0;
+    font-weight: 600;
+}
+
+.product-price {
+    color: var(--color-theme-price);
+    margin-top: 0;
+}
+
+.favourite {
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/favourite.svg");
+    transition: background-image 0.3s ease-in-out;
+}
+
+.favourite:hover {
+    background-image: url("../../assets/favourite-full.svg");
+}

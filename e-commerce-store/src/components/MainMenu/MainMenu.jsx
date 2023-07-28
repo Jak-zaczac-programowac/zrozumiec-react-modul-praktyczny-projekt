@@ -4,7 +4,7 @@ import styles from "./MainMenu.module.css";
 function MainMenu() {
     const categories = [
         {
-            path: "/",
+            path: "/mezczyzna",
             name: "Mężczyzna",
         },
         {

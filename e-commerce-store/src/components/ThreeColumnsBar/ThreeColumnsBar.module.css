@@ -1,7 +1,4 @@
 .bar {
-    composes: max-width from "../../styles/Utils.module.css";
-
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
 }

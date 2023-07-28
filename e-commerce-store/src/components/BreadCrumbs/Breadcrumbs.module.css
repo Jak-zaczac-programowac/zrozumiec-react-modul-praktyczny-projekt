@@ -1,0 +1,28 @@
+.breadcrumbs {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.breadcrumb {
+    color: var(--default-color-grey);
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.breadcrumb:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb img {
+    width: 7px;
+    height: 7px;
+    transform: rotate(-90deg);
+    margin-left: 0.5rem;
+}
+
+.breadcrumbs li:last-of-type img {
+    display: none;
+}
