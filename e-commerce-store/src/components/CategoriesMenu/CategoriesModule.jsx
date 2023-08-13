@@ -22,10 +22,6 @@ function CategoriesMenu() {
             path: "sport",
             name: "Sport",
         },
-        {
-            path: "kosmetyki",
-            name: "Kosmetyki",
-        },
     ];
 
     return (
