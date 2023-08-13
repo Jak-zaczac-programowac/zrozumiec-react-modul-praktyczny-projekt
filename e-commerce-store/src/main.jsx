@@ -1,13 +1,13 @@
+import "./styles/globals.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 import { Homepage } from "./views/Homepage/Homepage";
 import { Layout } from "./views/Layout/Layout";
-
-import "./styles/globals.css";
-import { ProductList } from "./views/ProductList/ProductList";
+import { ProductContainer } from "./views/ProductContainer/ProductContainer";
+import { ProductsList } from "./views/ProductsList/ProductsList";
+import { Product } from "./views/Product/Product";
 
 const router = createBrowserRouter([
     {
@@ -23,10 +23,26 @@ const router = createBrowserRouter([
                     },
                     {
                         path: "produkty/:category",
-                        element: <ProductList />,
+                        element: <ProductContainer />,
+                        children: [
+                            {
+                                path: ":subcategory",
+                                element: <ProductsList />,
+                            },
+                            {
+                                path: ":subcategory/:productSku",
+                                element: <Product />,
+                            },
+                        ],
                     },
                 ],
             },
+            // {
+            //     path: "/koszyk",
+            // },
+            // {
+            //     path: "/ulubione",
+            // },
         ],
     },
 ]);

@@ -6,7 +6,7 @@
 
 .tree p,
 .link:hover,
-.link-active {
+:global(.active) {
     font-weight: 600;
 }
 
@@ -32,11 +32,13 @@
 .top-category {
     display: flex;
     justify-content: space-between;
+    color: var(--default-color);
+    text-decoration: none;
 }
 
 .top-category img {
-    width: 1rem;
-    height: 1rem;
+    width: 0.5rem;
+    height: 0.5rem;
 }
 
 .inner-list ul {

@@ -1,110 +1,110 @@
 import { useState } from "react";
-import { Link, NavLink, useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import styles from "./ExpandableTree.module.css";
 import Arrow from "../../assets/arrow.svg";
 
 function ExpandableTree() {
     const [tree] = useState([
         {
-            category: "Odzież",
+            categoryName: "Odzież",
             path: "odziez",
             items: [
                 {
-                    category: "Bluzy",
+                    categoryName: "Bluzy",
                     path: "bluzy",
                 },
                 {
-                    category: "Jeansy",
+                    categoryName: "Jeansy",
                     path: "jeansy",
                 },
                 {
-                    category: "Sukienki",
+                    categoryName: "Sukienki",
                     path: "sukienki",
                 },
                 {
-                    category: "Płaszcze",
+                    categoryName: "Płaszcze",
                     path: "plaszcze",
                 },
                 {
-                    category: "Spódnice",
+                    categoryName: "Spódnice",
                     path: "spodnice",
                 },
             ],
         },
         {
-            category: "Obuwie",
+            categoryName: "Obuwie",
             path: "obuwie",
             items: [
                 {
-                    category: "Baleriny",
+                    categoryName: "Baleriny",
                     path: "baleriny",
                 },
                 {
-                    category: "Botki",
+                    categoryName: "Botki",
                     path: "botki",
                 },
                 {
-                    category: "Espadryle",
+                    categoryName: "Espadryle",
                     path: "espadryle",
                 },
                 {
-                    category: "Kozaki",
+                    categoryName: "Kozaki",
                     path: "kozaki",
                 },
                 {
-                    category: "Outdoor",
+                    categoryName: "Outdoor",
                     path: "outdoor",
                 },
             ],
         },
         {
-            category: "Akcesoria",
+            categoryName: "Akcesoria",
             path: "akcesoria",
             items: [
                 {
-                    category: "Plecaki",
+                    categoryName: "Plecaki",
                     path: "plecaki",
                 },
                 {
-                    category: "Portfele",
+                    categoryName: "Portfele",
                     path: "portfele",
                 },
                 {
-                    category: "Rękawiczki",
+                    categoryName: "Rękawiczki",
                     path: "rekawiczki",
                 },
                 {
-                    category: "Zegarki",
+                    categoryName: "Zegarki",
                     path: "zegarki",
                 },
                 {
-                    category: "Torebki",
+                    categoryName: "Torebki",
                     path: "torebki",
                 },
             ],
         },
         {
-            category: "Sport",
+            categoryName: "Sport",
             path: "sport",
             items: [
                 {
-                    category: "Bieganie",
+                    categoryName: "Bieganie",
                     path: "bieganie",
                 },
                 {
-                    category: "Trening",
+                    categoryName: "Trening",
                     path: "trening",
                 },
                 {
-                    category: "Sporty wodne",
+                    categoryName: "Sporty wodne",
                     path: "sporty-wodne",
                 },
                 {
-                    category: "Narty",
+                    categoryName: "Narty",
                     path: "narty",
                 },
                 {
-                    category: "Rower",
+                    categoryName: "Rower",
                     path: "rower",
                 },
             ],
@@ -112,41 +112,41 @@ function ExpandableTree() {
     ]);
 
     const params = useParams();
-    const [expandedCategory, setExpandedCategory] = useState();
+    const types = {
+        kobieta: "Kobieta",
+        mezczyzna: "Mężczyzna",
+    };
 
     return (
-        <div class={styles.tree}>
-            <p>Kobieta</p>
-            <ul class={styles["top-list"]}>
-                {tree.map((topCategory) => {
+        <div className={styles.tree}>
+            <p>{types[params["type"]]}</p>
+            <ul className={styles["top-list"]}>
+                {tree.map((category) => {
                     return (
                         <li
-                            key={topCategory.path}
-                            onClick={() => setExpandedCategory(topCategory)}
+                            key={category.path}
                             className={`${styles["inner-list"]} ${
-                                expandedCategory === topCategory
+                                params.category === category.path
                                     ? styles.expanded
                                     : ""
                             }`}
                         >
-                            <div className={styles["top-category"]}>
-                                <p>{topCategory.category}</p>
+                            <NavLink
+                                className={styles["top-category"]}
+                                to={`/${params.type}/produkty/${category.path}`}
+                            >
+                                <p>{category.categoryName}</p>
                                 <img src={Arrow}></img>
-                            </div>
+                            </NavLink>
+
                             <ul>
-                                {topCategory.items.map((item) => (
-                                    <li key={item.category}>
+                                {category.items.map((item) => (
+                                    <li key={item.categoryName}>
                                         <NavLink
-                                            className={({ isActive }) =>
-                                                `${styles.link} ${
-                                                    isActive
-                                                        ? styles["link-active"]
-                                                        : ""
-                                                }`
-                                            }
+                                            className={styles.link}
                                             to={`/${params.type}/produkty/${params.category}/${item.path}`}
                                         >
-                                            {item.category}
+                                            {item.categoryName}
                                         </NavLink>
                                     </li>
                                 ))}

@@ -1,0 +1,22 @@
+.currentPhoto {
+    width: 500px;
+    height: 700px;
+}
+
+.thumbnail {
+    width: 85px;
+    height: 120px;
+}
+
+.currentThumbnail {
+    border: 2px solid var(--color-default);
+}
+
+.thumbnailsList {
+    margin-right: 1rem;
+}
+
+.thumbnailsList li {
+    margin-bottom: 1rem;
+    cursor: pointer;
+}

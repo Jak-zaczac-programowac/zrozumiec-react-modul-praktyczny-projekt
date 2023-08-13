@@ -2,10 +2,10 @@
     composes: horizontal-list from "../../styles/Utils.module.css";
 }
 
-.menu-item {
+.menuItem {
     font-size: 1rem;
     display: inline-block;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     color: var(--color-default-grey);
     text-decoration: none;
     font-weight: 600;
@@ -13,15 +13,11 @@
     transition: border-bottom, color 0.3s ease;
 }
 
-.menu-item-active,
-.menu-item:hover {
+.menuItem:global(.active),
+.menuItem:hover {
     color: var(--color-default);
 }
 
-.menu-item-active {
+.menuItem:global(.active) {
     border-bottom: 3px solid var(--color-default);
-}
-
-.right-menu {
-    justify-content: flex-end;
 }

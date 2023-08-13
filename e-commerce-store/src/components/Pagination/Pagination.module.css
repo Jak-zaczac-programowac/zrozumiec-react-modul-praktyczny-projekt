@@ -12,6 +12,10 @@
     color: var(--default-color-grey);
 }
 
+.pagination li {
+    cursor: pointer;
+}
+
 .arrow {
     width: 0.75rem;
     height: 0.75rem;

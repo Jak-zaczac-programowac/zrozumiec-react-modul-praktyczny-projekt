@@ -1,9 +1,10 @@
-import styles from "./Products.module.css";
-import { ProductCard } from "../ProductCard/ProductCard";
+import styles from "./ProductsList.module.css";
+import { ProductCard } from "../../components/ProductCard/ProductCard";
 import SweaterImg from "../../assets/products/sweater.jpg";
-import { Pagination } from "../Pagination/Pagination";
+import { Pagination } from "../../components/Pagination/Pagination";
+import { Link } from "react-router-dom";
 
-function Products() {
+function ProductsList() {
     const products = [
         {
             name: "Biały Sweter",
@@ -88,10 +89,9 @@ function Products() {
         <>
             <div className={styles.products}>
                 {products.map((product) => (
-                    <ProductCard
-                        key={product.sku}
-                        product={product}
-                    ></ProductCard>
+                    <Link key={product.sku} to={product.sku}>
+                        <ProductCard product={product}></ProductCard>
+                    </Link>
                 ))}
             </div>
             <Pagination />
@@ -99,4 +99,4 @@ function Products() {
     );
 }
 
-export { Products };
+export { ProductsList };

@@ -3,10 +3,9 @@ import { Breadrcumbs } from "../../components/BreadCrumbs/Breadcrumbs";
 import { ExpandableTree } from "../../components/ExpandableTree/ExpandableTree";
 import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { MaxWidthContainer } from "../../components/MaxWidthContainer/MaxWidthContainter";
-import { Products } from "../../components/Products/Products";
+import { Outlet } from "react-router-dom";
 
-function ProductList() {
-    console.log("working?");
+function ProductContainer() {
     return (
         <>
             <MaxWidthContainer>
@@ -15,7 +14,7 @@ function ProductList() {
                     <BlockContainer>
                         <Breadrcumbs />
                         <h2>Spodnie</h2>
-                        <Products />
+                        <Outlet />
                     </BlockContainer>
                 </FlexContainer>
             </MaxWidthContainer>
@@ -23,4 +22,4 @@ function ProductList() {
     );
 }
 
-export { ProductList };
+export { ProductContainer };

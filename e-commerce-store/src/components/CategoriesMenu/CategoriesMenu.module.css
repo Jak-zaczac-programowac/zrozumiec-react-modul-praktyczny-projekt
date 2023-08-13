@@ -16,6 +16,10 @@
     padding: 1.2rem 0;
 }
 
+.menu-item:global(.active) {
+    text-decoration: underline;
+}
+
 .menu-item:hover {
     text-decoration: underline;
 }

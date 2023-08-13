@@ -1,8 +1,9 @@
-.product-card {
+.productCard {
     position: relative;
+    cursor: pointer;
 }
 
-.product-card img {
+.productCard img {
     height: 400px;
 }
 
@@ -11,7 +12,7 @@
     font-weight: 600;
 }
 
-.product-price {
+.productPrice {
     color: var(--color-theme-price);
     margin-top: 0;
 }

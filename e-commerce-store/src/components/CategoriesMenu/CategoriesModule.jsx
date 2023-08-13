@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import styles from "./CategoriesMenu.module.css";
 import { MaxWidthContainer } from "../MaxWidthContainer/MaxWidthContainter";
 
@@ -23,7 +23,7 @@ function CategoriesMenu() {
             name: "Sport",
         },
         {
-            path: "kosmetykio",
+            path: "kosmetyki",
             name: "Kosmetyki",
         },
     ];
@@ -34,13 +34,13 @@ function CategoriesMenu() {
                 <ul className={styles["menu-content"]}>
                     {categories.map((category) => (
                         <li key={category.path}>
-                            <Link
+                            <NavLink
                                 className={styles["menu-item"]}
                                 to={`/${params.type}/produkty/${category.path}`}
                                 relative="path"
                             >
                                 {category.name}
-                            </Link>
+                            </NavLink>
                         </li>
                     ))}
                 </ul>
