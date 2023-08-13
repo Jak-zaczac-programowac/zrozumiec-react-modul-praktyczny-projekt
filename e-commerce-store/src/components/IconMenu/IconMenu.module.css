@@ -9,11 +9,11 @@
     justify-content: flex-end;
 }
 
-.menu-item {
+.cart {
     position: relative;
 }
 
-.active-item {
+.activeItem {
     position: absolute;
     display: flex;
     justify-content: center;

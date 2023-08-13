@@ -7,18 +7,16 @@ import { Outlet } from "react-router-dom";
 
 function ProductContainer() {
     return (
-        <>
-            <MaxWidthContainer>
-                <FlexContainer>
-                    <ExpandableTree />
-                    <BlockContainer>
-                        <Breadrcumbs />
-                        <h2>Spodnie</h2>
-                        <Outlet />
-                    </BlockContainer>
-                </FlexContainer>
-            </MaxWidthContainer>
-        </>
+        <MaxWidthContainer>
+            <FlexContainer>
+                <ExpandableTree />
+                <BlockContainer>
+                    <Breadrcumbs />
+                    <h2>Spodnie</h2>
+                    <Outlet />
+                </BlockContainer>
+            </FlexContainer>
+        </MaxWidthContainer>
     );
 }
 

@@ -16,7 +16,7 @@ function SummerSale() {
                         <p>Tylko najlepsze okazje!</p>
                     </div>
 
-                    <Button>Sprawdź promki</Button>
+                    <Button>Sprawdź produkty</Button>
                 </div>
             </div>
         </MaxWidthContainer>

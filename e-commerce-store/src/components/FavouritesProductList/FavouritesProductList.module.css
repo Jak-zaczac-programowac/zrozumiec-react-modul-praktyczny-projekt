@@ -3,7 +3,7 @@
     margin-top: 1rem;
     padding: 1rem;
     padding-top: 0;
-    flex-basis: 70%;
+    flex-basis: 100%;
 }
 
 .cartProduct {
@@ -44,7 +44,7 @@
     vertical-align: middle;
 }
 
-.removeButton {
+.button {
     display: flex;
     background: none;
     border: none;
@@ -55,8 +55,13 @@
     margin-top: 1rem;
 }
 
-.removeButton img {
+.button img {
     margin-right: 0.5rem;
     width: 1rem;
     height: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
 }

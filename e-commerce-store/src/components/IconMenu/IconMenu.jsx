@@ -3,41 +3,29 @@ import BagIcon from "../../assets/bag.svg";
 
 import styles from "./IconMenu.module.css";
 import { Link } from "react-router-dom";
-
-const AVAILABLE_ICONS = {
-    bag: BagIcon,
-    heart: HeartIcon,
-};
+import { CurrencySelector } from "../CurrencySelector/CurrencySelector";
 
 function ActiveItem({ children }) {
-    return <div className={styles["active-item"]}>{children}</div>;
+    return <div className={styles.activeItem}>{children}</div>;
 }
 
 function IconMenu() {
-    const items = [
-        {
-            path: "/ulubione",
-            icon: AVAILABLE_ICONS.heart,
-        },
-        {
-            path: "/koszyk",
-            icon: AVAILABLE_ICONS.bag,
-            activeItems: 12,
-        },
-    ];
-
     return (
         <ul className={styles.menu}>
-            {items.map((item) => (
-                <li key={item.path}>
-                    <Link to={item.path} className={styles["menu-item"]}>
-                        <img className={styles.icon} src={item.icon} />
-                        {item.activeItems && (
-                            <ActiveItem>{item.activeItems}</ActiveItem>
-                        )}
-                    </Link>
-                </li>
-            ))}
+            <li>
+                <CurrencySelector />
+            </li>
+            <li>
+                <Link to="/ulubione">
+                    <img className={styles.icon} src={HeartIcon} />
+                </Link>
+            </li>
+            <li>
+                <Link to="/koszyk" className={styles.cart}>
+                    <img className={styles.icon} src={BagIcon} />
+                    <ActiveItem>12</ActiveItem>
+                </Link>
+            </li>
         </ul>
     );
 }

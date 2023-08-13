@@ -13,6 +13,7 @@ import { ProductContainer } from "./views/ProductContainer/ProductContainer";
 import { ProductsList } from "./views/ProductsList/ProductsList";
 import { Product } from "./views/Product/Product";
 import { Cart } from "./views/Cart/Cart";
+import { Favourites } from "./views/Favourites/Favourites";
 
 const router = createBrowserRouter([
     {
@@ -50,9 +51,10 @@ const router = createBrowserRouter([
                 path: "/koszyk",
                 element: <Cart />,
             },
-            // {
-            //     path: "/ulubione",
-            // },
+            {
+                path: "/ulubione",
+                element: <Favourites />,
+            },
         ],
     },
 ]);
