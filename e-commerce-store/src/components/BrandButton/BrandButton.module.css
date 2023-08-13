@@ -1,0 +1,17 @@
+.button {
+    width: 100%;
+    display: block;
+    background-color: var(--color-default);
+    color: var(--color-white);
+    font-weight: 600;
+    outline: solid var(--color-default);
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.button:hover {
+    color: var(--color-default);
+    background-color: var(--color-grey);
+}

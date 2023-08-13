@@ -2,6 +2,7 @@ import styles from "./ProductSummary.module.css";
 import Return from "../../assets/return.svg";
 import Delivery from "../../assets/delivery.svg";
 import { Accordion } from "../Accordion/Accordion";
+import { BrandButton } from "../BrandButton/BrandButton";
 
 function ProductSummary({ product: { brand, name, price } }) {
     const accordionOptions = [
@@ -32,12 +33,14 @@ function ProductSummary({ product: { brand, name, price } }) {
                 <option value="L">L</option>
                 <option value="XL">XL</option>
             </select>
-            <button className={styles.addToCart}>Dodaj do koszyka</button>
+            <BrandButton className={styles.addToCart}>
+                Dodaj do koszyka
+            </BrandButton>
 
             <div className={styles.deliveryInfo}>
                 <div>
                     <img src={Delivery}></img>
-                    <p>Darmowa dostawa</p>
+                    <p>Dostawa do 24h</p>
                 </div>
                 <div>
                     <img src={Return}></img>

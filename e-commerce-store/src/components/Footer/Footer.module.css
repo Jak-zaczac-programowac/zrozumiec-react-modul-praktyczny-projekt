@@ -2,4 +2,8 @@
     margin-top: 2rem;
     height: 200px;
     background-color: var(--color-default);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

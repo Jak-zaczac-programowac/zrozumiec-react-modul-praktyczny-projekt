@@ -2,18 +2,27 @@ import "./styles/globals.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+    createBrowserRouter,
+    Navigate,
+    RouterProvider,
+} from "react-router-dom";
 import { Homepage } from "./views/Homepage/Homepage";
 import { Layout } from "./views/Layout/Layout";
 import { ProductContainer } from "./views/ProductContainer/ProductContainer";
 import { ProductsList } from "./views/ProductsList/ProductsList";
 import { Product } from "./views/Product/Product";
+import { Cart } from "./views/Cart/Cart";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Layout />,
         children: [
+            {
+                path: "",
+                element: <Navigate to="/kobieta" />,
+            },
             {
                 path: "/:type",
                 children: [
@@ -37,9 +46,10 @@ const router = createBrowserRouter([
                     },
                 ],
             },
-            // {
-            //     path: "/koszyk",
-            // },
+            {
+                path: "/koszyk",
+                element: <Cart />,
+            },
             // {
             //     path: "/ulubione",
             // },

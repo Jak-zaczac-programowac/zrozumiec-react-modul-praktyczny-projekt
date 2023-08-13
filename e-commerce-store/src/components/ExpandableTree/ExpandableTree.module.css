@@ -1,5 +1,5 @@
 .tree {
-    width: 15%;
+    flex-basis: 15%;
     flex-shrink: 0;
     padding-top: 1.2em;
 }

@@ -24,8 +24,7 @@
     color: var(--color-theme-price);
 }
 
-.sizeSelector,
-.addToCart {
+.sizeSelector {
     padding: 1rem;
 }
 
@@ -33,23 +32,6 @@
     width: 100%;
     display: block;
     margin: 2rem 0 1rem 0;
-}
-
-.addToCart {
-    width: 100%;
-    display: block;
-    background-color: var(--color-default);
-    color: var(--color-white);
-    font-weight: 600;
-    outline: solid var(--color-default);
-    border: 0;
-    cursor: pointer;
-    margin-bottom: 2rem;
-}
-
-.addToCart:hover {
-    color: var(--color-default);
-    background-color: var(--color-grey);
 }
 
 .deliveryInfo {

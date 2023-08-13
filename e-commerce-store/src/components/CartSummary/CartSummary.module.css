@@ -1,0 +1,26 @@
+.summary {
+    padding: 1rem;
+    flex: 1;
+}
+
+.summary h3 {
+    border-bottom: 1px solid var(--color-default-grey);
+    padding-bottom: 1rem;
+}
+
+.summary div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.summaryRow {
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.details {
+    padding: 1rem;
+    font-weight: 600;
+    background-color: var(--color-theme-gray);
+}
