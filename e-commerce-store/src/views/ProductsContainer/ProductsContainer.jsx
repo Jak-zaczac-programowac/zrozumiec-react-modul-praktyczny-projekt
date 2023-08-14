@@ -3,16 +3,27 @@ import { Breadrcumbs } from "../../components/BreadCrumbs/Breadcrumbs";
 import { ExpandableTree } from "../../components/ExpandableTree/ExpandableTree";
 import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { MaxWidthContainer } from "../../components/MaxWidthContainer/MaxWidthContainter";
-import { Outlet } from "react-router-dom";
+import { Outlet, useParams } from "react-router-dom";
+import { CATEGORIES } from "../../constants/productCategories";
 
-function ProductContainer() {
+function ProductsContainer() {
+    const params = useParams();
+
+    let foundCategory = CATEGORIES.find(({ path }) => path === params.category);
+
+    if (params.subcategory) {
+        foundCategory = foundCategory.items.find(
+            ({ path }) => path == params.subcategory
+        );
+    }
+
     return (
         <MaxWidthContainer>
             <FlexContainer>
                 <ExpandableTree />
                 <BlockContainer>
                     <Breadrcumbs />
-                    <h2>Spodnie</h2>
+                    <h2>{foundCategory.categoryName}</h2>
                     <Outlet />
                 </BlockContainer>
             </FlexContainer>
@@ -20,4 +31,4 @@ function ProductContainer() {
     );
 }
 
-export { ProductContainer };
+export { ProductsContainer };

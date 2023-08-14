@@ -1,28 +1,14 @@
 import { NavLink } from "react-router-dom";
 import styles from "./MainMenu.module.css";
+import { GENDERS } from "../../constants/productCategories";
 
 function MainMenu() {
-    const categories = [
-        {
-            path: "/kobieta",
-            name: "Kobieta",
-        },
-        {
-            path: "/mezczyzna",
-            name: "Mężczyzna",
-        },
-        {
-            path: "/dzieci",
-            name: "Dzieci",
-        },
-    ];
-
     return (
         <ul className={styles.menu}>
-            {categories.map((category) => (
-                <li key={category.path}>
-                    <NavLink className={styles.menuItem} to={category.path}>
-                        {category.name}
+            {GENDERS.map(({ path, categoryName }) => (
+                <li key={path}>
+                    <NavLink className={styles.menuItem} to={`/${path}`}>
+                        {categoryName}
                     </NavLink>
                 </li>
             ))}

@@ -2,12 +2,12 @@
     background-color: var(--color-theme-main);
 }
 
-.menu-content {
+.menuContent {
     display: flex;
     gap: 1rem;
 }
 
-.menu-item {
+.menuItem {
     display: block;
     color: var(--color-white);
     text-decoration: none;
@@ -16,10 +16,10 @@
     padding: 1.2rem 0;
 }
 
-.menu-item:global(.active) {
+.menuItem:global(.active) {
     text-decoration: underline;
 }
 
-.menu-item:hover {
+.menuItem:hover {
     text-decoration: underline;
 }

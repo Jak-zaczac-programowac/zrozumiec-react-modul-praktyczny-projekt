@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import { Homepage } from "./views/Homepage/Homepage";
 import { Layout } from "./views/Layout/Layout";
-import { ProductContainer } from "./views/ProductContainer/ProductContainer";
+import { ProductsContainer } from "./views/ProductsContainer/ProductsContainer";
 import { ProductsList } from "./views/ProductsList/ProductsList";
 import { Product } from "./views/Product/Product";
 import { Cart } from "./views/Cart/Cart";
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
                 element: <Navigate to="/kobieta" />,
             },
             {
-                path: "/:type",
+                path: "/:gender",
                 children: [
                     {
                         path: "",
@@ -33,8 +33,12 @@ const router = createBrowserRouter([
                     },
                     {
                         path: "produkty/:category",
-                        element: <ProductContainer />,
+                        element: <ProductsContainer />,
                         children: [
+                            {
+                                path: "",
+                                element: <ProductsList />,
+                            },
                             {
                                 path: ":subcategory",
                                 element: <ProductsList />,

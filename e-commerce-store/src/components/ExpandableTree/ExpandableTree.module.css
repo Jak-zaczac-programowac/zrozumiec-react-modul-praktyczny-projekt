@@ -11,37 +11,37 @@
 }
 
 .tree > p,
-.inner-list li,
-.top-category {
+.innerList li,
+.topCategory {
     margin-bottom: 0.75rem;
 }
 
-.inner-list li,
-.top-category {
+.innerList li,
+.topCategory {
     cursor: pointer;
 }
 
-.top-list {
+.topList {
     margin-left: 2rem;
 }
 
-.top-list ul {
+.topList ul {
     margin-left: 2rem;
 }
 
-.top-category {
+.topCategory {
     display: flex;
     justify-content: space-between;
     color: var(--default-color);
     text-decoration: none;
 }
 
-.top-category img {
+.topCategory img {
     width: 0.5rem;
     height: 0.5rem;
 }
 
-.inner-list ul {
+.innerList ul {
     display: none;
     overflow: hidden;
     transition: display 0.3s ease-in-out;
