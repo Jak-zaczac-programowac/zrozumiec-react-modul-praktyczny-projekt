@@ -5,17 +5,20 @@ import { IconMenu } from "../../components/IconMenu/IconMenu";
 import { CategoriesMenu } from "../../components/CategoriesMenu/CategoriesModule";
 import { Footer } from "../../components/Footer/Footer";
 import { Outlet } from "react-router-dom";
+import { MainContent } from "../../components/MainContent/MainContent";
 
 function Layout() {
     return (
         <>
-            <ThreeColumnsBar>
-                <MainMenu />
-                <Logo />
-                <IconMenu />
-            </ThreeColumnsBar>
-            <CategoriesMenu />
-            <Outlet />
+            <MainContent>
+                <ThreeColumnsBar>
+                    <MainMenu />
+                    <Logo />
+                    <IconMenu />
+                </ThreeColumnsBar>
+                <CategoriesMenu />
+                <Outlet />
+            </MainContent>
             <Footer />
         </>
     );
