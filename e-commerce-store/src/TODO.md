@@ -5,3 +5,4 @@
 [] - sticky footer
 [] - fix color names (color-defaul-grey -> color-grey)
 [] - remove flex container
+[] - useEffect - podsumowanie płatności
