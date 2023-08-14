@@ -23,7 +23,7 @@ function IconMenu() {
             <li>
                 <Link to="/koszyk" className={styles.cart}>
                     <img className={styles.icon} src={BagIcon} />
-                    <ActiveItem>12</ActiveItem>
+                    <ActiveItem>2</ActiveItem>
                 </Link>
             </li>
         </ul>
