@@ -1,4 +1,4 @@
-.summer-sale-cover-image {
+.summerSaleCoverImage {
     position: relative;
     height: 500px;
 
@@ -6,7 +6,7 @@
     background-size: cover;
 }
 
-.summer-sale-prompt {
+.summerSalePrompt {
     position: absolute;
     height: 50%;
     top: 5rem;

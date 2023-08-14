@@ -6,11 +6,11 @@ import styles from "./SummerSale.module.css";
 function SummerSale() {
     return (
         <div
-            className={styles["summer-sale-cover-image"]}
+            className={styles.summerSaleCoverImage}
             style={{ backgroundImage: `url(${SummerSaleImage}` }}
         >
             <MaxWidthContainer>
-                <div className={styles["summer-sale-prompt"]}>
+                <div className={styles.summerSalePrompt}>
                     <div>
                         <h2>Letnie promocje do -70%!</h2>
                         <p>Tylko najlepsze okazje!</p>

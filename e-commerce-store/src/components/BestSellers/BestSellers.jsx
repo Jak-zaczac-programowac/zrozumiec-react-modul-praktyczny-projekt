@@ -43,7 +43,7 @@ function BestSellers() {
         <MaxWidthContainer>
             <h2>Sprawdź nasze bestellery</h2>
 
-            <div className={styles["products-wrapper"]}>
+            <div className={styles.productsWrapper}>
                 {products.map((product) => (
                     <ProductCard
                         product={product}

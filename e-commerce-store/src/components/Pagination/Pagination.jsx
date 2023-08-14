@@ -2,13 +2,11 @@ import styles from "./Pagination.module.css";
 import Arrow from "../../assets/arrow.svg";
 
 function Pagination({ pages }) {
-    const pagesList = [...Array(pages).keys()];
-
     return (
-        <div className={styles["pagination-container"]}>
+        <div className={styles.paginationContainer}>
             <img
                 src={Arrow}
-                className={`${styles.arrow} ${styles["arrow-left"]}`}
+                className={`${styles.arrow} ${styles.arrowLeft}`}
             />
             <ul className={styles.pagination}>
                 <li>1</li>
@@ -19,7 +17,7 @@ function Pagination({ pages }) {
             </ul>
             <img
                 src={Arrow}
-                className={`${styles.arrow} ${styles["arrow-right"]}`}
+                className={`${styles.arrow} ${styles.arrowRight}`}
             />
         </div>
     );

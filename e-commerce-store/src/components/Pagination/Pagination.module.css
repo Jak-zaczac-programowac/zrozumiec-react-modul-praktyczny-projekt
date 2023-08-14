@@ -1,4 +1,4 @@
-.pagination-container {
+.paginationContainer {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
@@ -23,10 +23,10 @@
     margin: 0 1rem;
 }
 
-.arrow-left {
+.arrowLeft {
     transform: rotate(90deg);
 }
 
-.arrow-right {
+.arrowRight {
     transform: rotate(-90deg);
 }

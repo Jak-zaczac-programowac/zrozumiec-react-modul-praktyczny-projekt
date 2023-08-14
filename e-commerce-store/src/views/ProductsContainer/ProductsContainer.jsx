@@ -1,5 +1,5 @@
 import { BlockContainer } from "../../components/BlockContainer/BlockContainer";
-import { Breadrcumbs } from "../../components/BreadCrumbs/Breadcrumbs";
+import { Breadrcumbs } from "../../components/Breadcrumbs/Breadcrumbs";
 import { ExpandableTree } from "../../components/ExpandableTree/ExpandableTree";
 import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { MaxWidthContainer } from "../../components/MaxWidthContainer/MaxWidthContainter";
