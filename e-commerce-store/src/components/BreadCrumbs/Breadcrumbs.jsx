@@ -3,7 +3,7 @@ import Arrow from "../../assets/arrow.svg";
 import { NavLink, useParams } from "react-router-dom";
 import { CATEGORIES, GENDERS } from "../../constants/productCategories";
 
-function Breadrcumbs() {
+function Breadcrumbs() {
     const params = useParams();
 
     const breadcrumbs = [];
@@ -39,4 +39,4 @@ function Breadrcumbs() {
     );
 }
 
-export { Breadrcumbs };
+export { Breadcrumbs };

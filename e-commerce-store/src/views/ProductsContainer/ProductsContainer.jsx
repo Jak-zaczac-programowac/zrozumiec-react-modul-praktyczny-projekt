@@ -1,5 +1,5 @@
 import { BlockContainer } from "../../components/BlockContainer/BlockContainer";
-import { Breadrcumbs } from "../../components/Breadcrumbs/Breadcrumbs";
+import { Breadcrumbs } from "../../components/Breadrcumbs/Breadcrumbs";
 import { ExpandableTree } from "../../components/ExpandableTree/ExpandableTree";
 import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { MaxWidthContainer } from "../../components/MaxWidthContainer/MaxWidthContainter";
@@ -22,7 +22,7 @@ function ProductsContainer() {
             <FlexContainer>
                 <ExpandableTree />
                 <BlockContainer>
-                    <Breadrcumbs />
+                    <Breadcrumbs />
                     <h2>{foundCategory.categoryName}</h2>
                     <Outlet />
                 </BlockContainer>
