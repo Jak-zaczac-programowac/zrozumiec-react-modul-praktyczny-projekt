@@ -61,7 +61,6 @@ const router = createBrowserRouter([
             },
         ],
     },
-    { basename: "/zrozumiec-react-modul-praktyczny-projekt" },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

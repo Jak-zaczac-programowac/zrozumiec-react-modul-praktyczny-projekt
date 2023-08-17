@@ -19,8 +19,6 @@ function ProductsContainer() {
         );
     }
 
-    console.log(foundCategory);
-
     return (
         <MaxWidthContainer>
             <FlexContainer>

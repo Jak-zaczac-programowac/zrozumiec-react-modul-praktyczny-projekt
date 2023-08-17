@@ -1,15 +1,17 @@
 import Delivery from "../../assets/delivery.svg";
+import { useCart } from "../../hooks/useCart";
 
 import { BrandButton } from "../BrandButton/BrandButton";
 import styles from "./CartSummary.module.css";
 
 function CartSummary() {
+    const [, cartSummary] = useCart();
     return (
         <div className={styles.summary}>
             <h3>Podsumowanie</h3>
             <div>
                 <p>Wartość produktów: </p>
-                <p>398zł</p>
+                <p>{cartSummary.totalPrice} zł</p>
             </div>
             <div>
                 <p>Koszt dostawy: </p>

@@ -6,20 +6,46 @@ import { CategoriesMenu } from "../../components/CategoriesMenu/CategoriesModule
 import { Footer } from "../../components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 import { MainContent } from "../../components/MainContent/MainContent";
+import { CartContext } from "../../contexts/CartContext";
+import { useCallback, useEffect, useState } from "react";
+import { useLocalStorage } from "../../hooks/useLocalStorage";
 
 function Layout() {
+    const [getDataFromLocalStorage, setDataFromLocalStorage] = useLocalStorage(
+        "cart",
+        []
+    );
+    const [cartItems, setCartItems] = useState([]);
+
+    useEffect(() => {
+        console.log("Run once!");
+        setCartItems(getDataFromLocalStorage());
+    }, []);
+
+    const addProductToCart = useCallback(
+        function (item) {
+            const newState = [...cartItems, item];
+
+            setCartItems(newState);
+            setDataFromLocalStorage(newState);
+        },
+        [cartItems, setDataFromLocalStorage]
+    );
+
     return (
         <>
-            <MainContent>
-                <ThreeColumnsBar>
-                    <MainMenu />
-                    <Logo />
-                    <IconMenu />
-                </ThreeColumnsBar>
-                <CategoriesMenu />
-                <Outlet />
-            </MainContent>
-            <Footer />
+            <CartContext.Provider value={[cartItems, addProductToCart]}>
+                <MainContent>
+                    <ThreeColumnsBar>
+                        <MainMenu />
+                        <Logo />
+                        <IconMenu />
+                    </ThreeColumnsBar>
+                    <CategoriesMenu />
+                    <Outlet />
+                </MainContent>
+                <Footer />
+            </CartContext.Provider>
         </>
     );
 }

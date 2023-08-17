@@ -3,8 +3,13 @@ import Return from "../../assets/return.svg";
 import Delivery from "../../assets/delivery.svg";
 import { Accordion } from "../Accordion/Accordion";
 import { BrandButton } from "../BrandButton/BrandButton";
+import { useContext } from "react";
+import { CartContext } from "../../contexts/CartContext";
 
-function ProductSummary({ product: { brand, name, price } }) {
+function ProductSummary({ product }) {
+    const [, addProductToCart] = useContext(CartContext);
+    const { brand, name, price } = product;
+
     const accordionOptions = [
         {
             title: "Opis produktu",
@@ -33,7 +38,10 @@ function ProductSummary({ product: { brand, name, price } }) {
                 <option value="L">L</option>
                 <option value="XL">XL</option>
             </select>
-            <BrandButton className={styles.addToCart}>
+            <BrandButton
+                className={styles.addToCart}
+                onClick={() => addProductToCart(product)}
+            >
                 Dodaj do koszyka
             </BrandButton>
 
