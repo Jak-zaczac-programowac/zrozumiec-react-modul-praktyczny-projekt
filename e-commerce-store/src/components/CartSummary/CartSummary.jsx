@@ -1,11 +1,11 @@
 import Delivery from "../../assets/delivery.svg";
-import { useCart } from "../../hooks/useCart";
 
 import { BrandButton } from "../BrandButton/BrandButton";
 import styles from "./CartSummary.module.css";
 
 function CartSummary() {
-    const [, cartSummary] = useCart();
+    const cartSummary = {};
+
     return (
         <div className={styles.summary}>
             <h3>Podsumowanie</h3>

@@ -7,6 +7,11 @@
     height: 400px;
 }
 
+.productCard button {
+    background-color: none;
+    border: none;
+}
+
 .name {
     margin: 0.5rem 0;
     font-weight: 600;

@@ -1,6 +1,5 @@
 import { NavLink, useParams } from "react-router-dom";
 import styles from "./CategoriesMenu.module.css";
-import { MaxWidthContainer } from "../MaxWidthContainer/MaxWidthContainter";
 import { CATEGORIES } from "../../constants/productCategories";
 
 function CategoriesMenu() {
@@ -9,7 +8,7 @@ function CategoriesMenu() {
 
     return (
         <div className={styles.menu}>
-            <MaxWidthContainer>
+            <div className={styles.menuContainer}>
                 <ul className={styles.menuContent}>
                     {CATEGORIES.map(({ path, categoryName }) => (
                         <li key={path}>
@@ -23,7 +22,7 @@ function CategoriesMenu() {
                         </li>
                     ))}
                 </ul>
-            </MaxWidthContainer>
+            </div>
         </div>
     );
 }

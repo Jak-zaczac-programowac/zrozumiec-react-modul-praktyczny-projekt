@@ -1,3 +1,8 @@
+.bestellers {
+    max-width: 100rem;
+    padding: 0 3rem;
+    margin: 0 auto;
+}
 .productsWrapper {
     display: flex;
     justify-content: space-between;

@@ -1,8 +1,12 @@
-import { FavouritesList } from "../../components/FavouritesList/FavouritesList";
-import { Layout } from "../../components/Layout/Layout";
+import { Hero } from "../../components/Hero/Hero";
+import { Bestsellers } from "../../components/Bestsellers/Bestsellers";
+import HeroImage from "../../assets/summersale.jpg";
 import SweaterImg from "../../assets/products/sweater.jpg";
 
-function Favourites() {
+import { Layout } from "../../components/Layout/Layout";
+
+function MainPage() {
+    const heroImage = HeroImage;
     const products = [
         {
             id: 2,
@@ -37,11 +41,13 @@ function Favourites() {
             sku: "abcdef",
         },
     ];
+
     return (
         <Layout>
-            <FavouritesList products={products} />
+            <Hero heroImage={heroImage} />
+            <Bestsellers products={products} />
         </Layout>
     );
 }
 
-export { Favourites };
+export { MainPage };

@@ -2,6 +2,12 @@
     background-color: var(--color-theme-main);
 }
 
+.menuContainer {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
 .menuContent {
     display: flex;
     gap: 1rem;

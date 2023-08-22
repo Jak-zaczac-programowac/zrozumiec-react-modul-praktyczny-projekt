@@ -1,9 +1,8 @@
 import styles from "./CartProductList.module.css";
 import Remove from "../../assets/remove.svg";
-import { useCart } from "../../hooks/useCart";
 
 function CartProductList() {
-    const [cartItems] = useCart();
+    const cartItems = [];
 
     return (
         <div className={styles.container}>
@@ -19,9 +18,6 @@ function CartProductList() {
                             <p className={styles.price}>{product.price}</p>
                         </div>
                         <div className={styles.details}>
-                            <p>
-                                Rozmiar: <span>{product.size}</span>
-                            </p>
                             <p>
                                 Cena: <span>{product.price}</span>
                             </p>

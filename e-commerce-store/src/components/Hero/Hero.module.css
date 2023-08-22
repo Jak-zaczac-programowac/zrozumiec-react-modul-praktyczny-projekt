@@ -1,3 +1,9 @@
+.heroContainer {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
 .summerSaleCoverImage {
     position: relative;
     height: 500px;
