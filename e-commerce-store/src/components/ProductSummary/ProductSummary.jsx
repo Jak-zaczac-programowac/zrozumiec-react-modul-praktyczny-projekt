@@ -7,7 +7,7 @@ import { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
 
 function ProductSummary({ product }) {
-    const [, addProductToCart] = useContext(CartContext);
+    const [cartItems, setCartItems] = useContext(CartContext);
     const { brand, name, price } = product;
 
     const accordionOptions = [
@@ -29,18 +29,11 @@ function ProductSummary({ product }) {
             <p className={styles.name}>{name}</p>
             <p className={styles.price}>{price}</p>
 
-            <select
-                className={styles.sizeSelector}
-                placeholder="Wybierz rozmiar"
-            >
-                <option value="S">S</option>
-                <option value="M">M</option>
-                <option value="L">L</option>
-                <option value="XL">XL</option>
-            </select>
             <BrandButton
                 className={styles.addToCart}
-                onClick={() => addProductToCart(product)}
+                onClick={() => {
+                    setCartItems([...cartItems, cartItems]);
+                }}
             >
                 Dodaj do koszyka
             </BrandButton>

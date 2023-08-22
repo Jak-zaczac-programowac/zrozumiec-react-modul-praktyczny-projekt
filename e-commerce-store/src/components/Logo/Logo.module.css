@@ -1,4 +1,6 @@
 .logo {
     font-size: 2rem;
     text-transform: uppercase;
+    text-align: center;
+    flex: 1;
 }

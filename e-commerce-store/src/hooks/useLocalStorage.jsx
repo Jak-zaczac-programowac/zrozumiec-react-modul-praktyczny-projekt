@@ -1,5 +1,21 @@
 import { useCallback } from "react";
 
+function useLocalStorage(key, defaultValue) {
+    function setJSONToLocalStorage() {
+        localStorage[key] = JSON.parse(data);
+    }
+
+    function readJSONFromLocalStorage(data) {
+        if (localStorage[key]) {
+            return JSON.stringify(localStorage[key]);
+        } else {
+            return defaultValue;
+        }
+    }
+
+    return [setJSONToLocalStorage, readJSONFromLocalStorage];
+}
+
 function useLocalStorage(localStorageKey, defaultValue) {
     const getDataFromLocalStorage = useCallback(() => {
         let dataFromLocalStorage = defaultValue;

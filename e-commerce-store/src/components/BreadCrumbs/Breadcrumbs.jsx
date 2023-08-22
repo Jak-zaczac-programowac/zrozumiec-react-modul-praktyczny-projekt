@@ -4,25 +4,32 @@ import { NavLink, useParams } from "react-router-dom";
 import { CATEGORIES, GENDERS } from "../../constants/productCategories";
 
 function Breadcrumbs() {
-    const params = useParams();
+    const { gender, category, subcategory } = useParams();
+    console.log(gender, category, subcategory);
 
-    const breadcrumbs = [];
+    const foundGender = GENDERS.find((g) => g.path === gender);
+    const foundCategory = CATEGORIES.find((c) => c.path === category);
 
-    const gender = params.gender;
-    const category = params.category;
-    const subCategory = params.subcategory;
+    const breadcrumbs = [
+        {
+            text: "Męzczyzna",
+            path: `/men`,
+        },
+        {
+            text: foundCategory.categoryName,
+            path: `/${foundGender.path}/${foundCategory.path}`,
+        },
+    ];
 
-    const foundGender = GENDERS.find(({ path }) => path === gender);
-    breadcrumbs.push(foundGender);
-
-    const foundCategory = CATEGORIES.find(({ path }) => path === category);
-    breadcrumbs.push(foundCategory);
-
-    if (subCategory) {
-        const foundSubCategory = foundCategory.items.find(
-            ({ path }) => path === subCategory
+    if (subcategory) {
+        const foundSubcategory = foundCategory.subCategories.find(
+            (sc) => sc.path === subcategory
         );
-        breadcrumbs.push(foundSubCategory);
+
+        breadcrumbs.push({
+            text: foundSubcategory.categoryName,
+            path: `/${foundGender.path}/${foundCategory.path}/${foundCategory.categoryName}`,
+        });
     }
 
     return (

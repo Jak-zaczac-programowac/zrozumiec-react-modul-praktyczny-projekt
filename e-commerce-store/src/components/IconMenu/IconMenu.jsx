@@ -3,7 +3,6 @@ import BagIcon from "../../assets/bag.svg";
 
 import styles from "./IconMenu.module.css";
 import { Link } from "react-router-dom";
-import { CurrencySelector } from "../CurrencySelector/CurrencySelector";
 import { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
 
@@ -16,9 +15,6 @@ function IconMenu() {
 
     return (
         <ul className={styles.menu}>
-            <li>
-                <CurrencySelector />
-            </li>
             <li>
                 <Link to="/ulubione">
                     <img className={styles.icon} src={HeartIcon} />

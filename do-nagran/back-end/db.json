@@ -11,7 +11,23 @@
         "bestsellers": [],
         "heroImageUrl": ""
     },
+    "favourites": [],
     "products": [
+        {
+            "id": 1,
+            "gender": "men",
+            "category": "odziez",
+            "subCategory": "koszulki",
+            "productName": "T-Shirt",
+            "brand": "Top Brand",
+            "pricePLN": 49,
+            "priceUSD": 10,
+            "photos": [
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+            ]
+        },
         {
             "id": 2,
             "gender": "men",
@@ -22,9 +38,9 @@
             "pricePLN": 49,
             "priceUSD": 10,
             "photos": [
-                "/product-photos/man-t-shirt-1.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-3.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
             ]
         },
         {
@@ -37,9 +53,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {

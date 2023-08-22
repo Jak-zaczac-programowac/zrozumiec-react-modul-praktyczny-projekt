@@ -5,6 +5,8 @@ import { CATEGORIES } from "../../constants/productCategories";
 
 function CategoriesMenu() {
     const params = useParams();
+    const foundCategory = CATEGORIES.find((c) => c.path === params.category);
+
     return (
         <div className={styles.menu}>
             <MaxWidthContainer>
@@ -13,7 +15,7 @@ function CategoriesMenu() {
                         <li key={path}>
                             <NavLink
                                 className={styles.menuItem}
-                                to={`/${params.gender}/produkty/${path}`}
+                                to={`/${params.gender}/${path}`}
                                 relative="path"
                             >
                                 {categoryName}

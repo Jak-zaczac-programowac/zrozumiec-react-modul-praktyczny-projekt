@@ -17,104 +17,50 @@ const CATEGORIES = [
     {
         categoryName: "Odzież",
         path: "odziez",
-        items: [
+        subCategories: [
             {
-                categoryName: "Bluzy",
-                path: "bluzy",
+                categoryName: "Koszulki",
+                path: "koszulki",
             },
             {
-                categoryName: "Jeansy",
-                path: "jeansy",
+                categoryName: "Swetry",
+                path: "swetry",
             },
             {
-                categoryName: "Sukienki",
-                path: "sukienki",
-            },
-            {
-                categoryName: "Płaszcze",
-                path: "plaszcze",
-            },
-            {
-                categoryName: "Spódnice",
-                path: "spodnice",
+                categoryName: "Spodnie",
+                path: "spodnie",
             },
         ],
     },
     {
         categoryName: "Obuwie",
         path: "obuwie",
-        items: [
+        subCategories: [
             {
-                categoryName: "Baleriny",
-                path: "baleriny",
+                categoryName: "Elegancke",
+                path: "eleganckie",
             },
             {
-                categoryName: "Botki",
-                path: "botki",
+                categoryName: "Sportowe",
+                path: "sportowe",
             },
             {
-                categoryName: "Espadryle",
-                path: "espadryle",
-            },
-            {
-                categoryName: "Kozaki",
-                path: "kozaki",
-            },
-            {
-                categoryName: "Outdoor",
-                path: "outdoor",
+                categoryName: "Sneakersy",
+                path: "sneakersy",
             },
         ],
     },
     {
         categoryName: "Akcesoria",
         path: "akcesoria",
-        items: [
+        subCategories: [
             {
-                categoryName: "Plecaki",
-                path: "plecaki",
+                categoryName: "Torby",
+                path: "torby",
             },
             {
-                categoryName: "Portfele",
-                path: "portfele",
-            },
-            {
-                categoryName: "Rękawiczki",
-                path: "rekawiczki",
-            },
-            {
-                categoryName: "Zegarki",
+                categoryName: "zegarki",
                 path: "zegarki",
-            },
-            {
-                categoryName: "Torebki",
-                path: "torebki",
-            },
-        ],
-    },
-    {
-        categoryName: "Sport",
-        path: "sport",
-        items: [
-            {
-                categoryName: "Bieganie",
-                path: "bieganie",
-            },
-            {
-                categoryName: "Trening",
-                path: "trening",
-            },
-            {
-                categoryName: "Sporty wodne",
-                path: "sporty-wodne",
-            },
-            {
-                categoryName: "Narty",
-                path: "narty",
-            },
-            {
-                categoryName: "Rower",
-                path: "rower",
             },
         ],
     },

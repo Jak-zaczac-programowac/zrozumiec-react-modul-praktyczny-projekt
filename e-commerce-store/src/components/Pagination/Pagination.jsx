@@ -1,5 +1,6 @@
 import styles from "./Pagination.module.css";
 import Arrow from "../../assets/arrow.svg";
+import { NavLink } from "react-router-dom";
 
 function Pagination({ pages }) {
     return (
@@ -9,7 +10,9 @@ function Pagination({ pages }) {
                 className={`${styles.arrow} ${styles.arrowLeft}`}
             />
             <ul className={styles.pagination}>
-                <li>1</li>
+                <li>
+                    <NavLink to="?page=1">1</NavLink>
+                </li>
                 <li>2</li>
                 <li>3</li>
                 <li>...</li>

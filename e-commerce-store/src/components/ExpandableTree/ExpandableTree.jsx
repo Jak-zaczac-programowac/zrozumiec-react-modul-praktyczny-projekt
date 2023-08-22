@@ -16,7 +16,7 @@ function ExpandableTree() {
         <div className={styles.tree}>
             <p>{types[params["type"]]}</p>
             <ul className={styles.topList}>
-                {tree.map(({ path, categoryName, items }) => {
+                {tree.map(({ path, categoryName, subCategories }) => {
                     return (
                         <li
                             key={path}
@@ -26,18 +26,18 @@ function ExpandableTree() {
                         >
                             <NavLink
                                 className={styles.topCategory}
-                                to={`/${params.gender}/produkty/${path}`}
+                                to={`/${params.gender}/${path}`}
                             >
                                 <p>{categoryName}</p>
                                 <img src={Arrow}></img>
                             </NavLink>
 
                             <ul>
-                                {items.map(({ categoryName, path }) => (
+                                {subCategories.map(({ categoryName, path }) => (
                                     <li key={categoryName}>
                                         <NavLink
                                             className={styles.link}
-                                            to={`/${params.gender}/produkty/${params.category}/${path}`}
+                                            to={`/${params.gender}/${params.category}/${path}`}
                                         >
                                             {categoryName}
                                         </NavLink>

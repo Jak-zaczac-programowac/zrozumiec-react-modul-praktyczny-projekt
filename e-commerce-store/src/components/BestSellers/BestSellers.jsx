@@ -6,34 +6,41 @@ import { MaxWidthContainer } from "../MaxWidthContainer/MaxWidthContainter";
 function BestSellers() {
     const products = [
         {
+            id: 2,
             name: "Biały Sweter",
-            price: "199zł",
+            pricePLN: 199,
+            priceUSD: 49,
             image: SweaterImg,
             sku: "abcde",
         },
         {
+            id: 3,
             name: "Biały Sweter",
-            price: "199zł",
+            pricePLN: 199,
+            priceUSD: 49,
             image: SweaterImg,
             sku: "abcd",
         },
 
         {
             name: "Biały Sweter",
-            price: "199zł",
+            pricePLN: 199,
+            priceUSD: 49,
             image: SweaterImg,
             sku: "abc",
         },
 
         {
             name: "Biały Sweter",
-            price: "199zł",
+            pricePLN: 199,
+            priceUSD: 49,
             image: SweaterImg,
             sku: "abcdef",
         },
         {
             name: "Biały Sweter",
-            price: "199zł",
+            pricePLN: 199,
+            priceUSD: 49,
             image: SweaterImg,
             sku: "abcdefg",
         },
