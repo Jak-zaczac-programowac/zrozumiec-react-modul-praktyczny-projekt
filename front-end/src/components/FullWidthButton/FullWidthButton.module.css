@@ -1,0 +1,24 @@
+.button {
+    color: var(--color-white);
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.black {
+    background-color: var(--color-default);
+}
+
+.black:hover {
+    border: 2px solid var(--color-default);
+    background-color: var(--color-white);
+    color: var(--color-default);
+}
+
+.green {
+    background-color: var(--color-theme-main);
+}
