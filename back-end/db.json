@@ -1,15 +1,198 @@
 {
     "women": {
-        "bestsellers": [],
-        "heroImageUrl": ""
+        "bestsellers": [
+            {
+                "id": 1,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-Shirt",
+                "brand": "Top Brand",
+                "pricePLN": 49,
+                "priceUSD": 10,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+                ]
+            },
+            {
+                "id": 2,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-Shirt",
+                "brand": "Top Brand",
+                "pricePLN": 49,
+                "priceUSD": 10,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+                ]
+            },
+            {
+                "id": 3,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-shirt 2",
+                "brand": "Sun Tzu",
+                "pricePLN": 199,
+                "priceUSD": 49,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
+                ]
+            },
+            {
+                "id": 4,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-shirt 3",
+                "brand": "Sun Tzu",
+                "pricePLN": 199,
+                "priceUSD": 49,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
+                ]
+            }
+        ],
+        "heroImageUrl": "http://localhost:3000/product-photos/women.jpg"
     },
     "men": {
-        "bestsellers": [],
-        "heroImageUrl": ""
+        "bestsellers": [
+            {
+                "id": 1,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-Shirt",
+                "brand": "Top Brand",
+                "pricePLN": 49,
+                "priceUSD": 10,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+                ]
+            },
+            {
+                "id": 2,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-Shirt",
+                "brand": "Top Brand",
+                "pricePLN": 49,
+                "priceUSD": 10,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+                ]
+            },
+            {
+                "id": 3,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-shirt 2",
+                "brand": "Sun Tzu",
+                "pricePLN": 199,
+                "priceUSD": 49,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
+                ]
+            },
+            {
+                "id": 4,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-shirt 3",
+                "brand": "Sun Tzu",
+                "pricePLN": 199,
+                "priceUSD": 49,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
+                ]
+            }
+        ],
+        "heroImageUrl": "http://localhost:3000/product-photos/men.jpg"
     },
     "children": {
-        "bestsellers": [],
-        "heroImageUrl": ""
+        "bestsellers": [
+            {
+                "id": 1,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-Shirt",
+                "brand": "Top Brand",
+                "pricePLN": 49,
+                "priceUSD": 10,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+                ]
+            },
+            {
+                "id": 2,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-Shirt",
+                "brand": "Top Brand",
+                "pricePLN": 49,
+                "priceUSD": 10,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+                ]
+            },
+            {
+                "id": 3,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-shirt 2",
+                "brand": "Sun Tzu",
+                "pricePLN": 199,
+                "priceUSD": 49,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
+                ]
+            },
+            {
+                "id": 4,
+                "gender": "men",
+                "category": "odziez",
+                "subCategory": "koszulki",
+                "name": "T-shirt 3",
+                "brand": "Sun Tzu",
+                "pricePLN": 199,
+                "priceUSD": 49,
+                "images": [
+                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
+                ]
+            }
+        ],
+        "heroImageUrl": "http://localhost:3000/product-photos/children.jpg"
     },
     "favourites": [],
     "products": [
@@ -68,9 +251,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-1.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
             ]
         },
         {
@@ -83,9 +266,9 @@
             "pricePLN": 129,
             "priceUSD": 39,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -98,9 +281,9 @@
             "pricePLN": 49,
             "priceUSD": 10,
             "photos": [
-                "/product-photos/man-t-shirt-1.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-3.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
             ]
         },
         {
@@ -113,9 +296,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -128,9 +311,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-1.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
             ]
         },
         {
@@ -143,9 +326,9 @@
             "pricePLN": 129,
             "priceUSD": 39,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -158,9 +341,9 @@
             "pricePLN": 49,
             "priceUSD": 10,
             "photos": [
-                "/product-photos/man-t-shirt-1.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-3.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
             ]
         },
         {
@@ -173,9 +356,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -188,9 +371,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-1.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
             ]
         },
         {
@@ -203,9 +386,9 @@
             "pricePLN": 129,
             "priceUSD": 39,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -218,9 +401,9 @@
             "pricePLN": 49,
             "priceUSD": 10,
             "photos": [
-                "/product-photos/man-t-shirt-1.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-3.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
             ]
         },
         {
@@ -233,9 +416,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -248,9 +431,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-1.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
             ]
         },
         {
@@ -263,9 +446,9 @@
             "pricePLN": 129,
             "priceUSD": 39,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -278,9 +461,9 @@
             "pricePLN": 49,
             "priceUSD": 10,
             "photos": [
-                "/product-photos/man-t-shirt-1.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-3.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
             ]
         },
         {
@@ -293,9 +476,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -308,9 +491,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-1.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
             ]
         },
         {
@@ -323,9 +506,9 @@
             "pricePLN": 129,
             "priceUSD": 39,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -338,9 +521,9 @@
             "pricePLN": 49,
             "priceUSD": 10,
             "photos": [
-                "/product-photos/man-t-shirt-1.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-3.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
             ]
         },
         {
@@ -353,9 +536,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         },
         {
@@ -368,9 +551,9 @@
             "pricePLN": 199,
             "priceUSD": 49,
             "photos": [
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg",
-                "/product-photos/man-t-shirt-1.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
             ]
         },
         {
@@ -383,9 +566,9 @@
             "pricePLN": 129,
             "priceUSD": 39,
             "photos": [
-                "/product-photos/man-t-shirt-4.jpg",
-                "/product-photos/man-t-shirt-3.jpg",
-                "/product-photos/man-t-shirt-2.jpg"
+                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         }
     ]
