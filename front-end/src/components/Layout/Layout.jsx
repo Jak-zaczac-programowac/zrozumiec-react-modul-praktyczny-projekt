@@ -1,28 +1,28 @@
-import { TopBar } from "../../components/TopBar/TopBar";
-import { MainMenu } from "../../components/MainMenu/MainMenu";
-import { Logo } from "../../components/Logo/Logo";
-import { IconMenu } from "../../components/IconMenu/IconMenu";
-import { CategoriesMenu } from "../../components/CategoriesMenu/CategoriesMenu";
-import { Footer } from "../../components/Footer/Footer";
-import { MainContent } from "../../components/MainContent/MainContent";
-import { CurrencySelector } from "../../components/CurrencySelector/CurrencySelector";
+import { CategoryMenu } from "../CategoryMenu/CategoryMenu";
+import { CurrencySelector } from "../CurrencySelector/CurrencySelector";
+import { Footer } from "../Footer/Footer";
+import { IconMenu } from "../IconMenu/IconMenu";
+import { Logo } from "../Logo/Logo";
+import { MainContent } from "../MainContent/MainContent";
+import { MainMenu } from "../MainMenu/MainMenu";
+import { TopBar } from "../TopBar/TopBar";
 
-function Layout({ children }) {
+export function Layout({ children }) {
     return (
         <>
             <MainContent>
                 <TopBar>
                     <MainMenu />
                     <Logo />
-                    <CurrencySelector />
-                    <IconMenu />
+                    <div>
+                        <CurrencySelector />
+                        <IconMenu />
+                    </div>
                 </TopBar>
-                <CategoriesMenu />
+                <CategoryMenu />
                 {children}
             </MainContent>
             <Footer />
         </>
     );
 }
-
-export { Layout };

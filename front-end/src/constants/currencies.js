@@ -1,11 +1,4 @@
-const CURRENCIES = {
-    PLN: "PLN",
+export const CURRENCIES = {
     USD: "USD",
+    PLN: "PLN",
 };
-
-const CURRENCY_SIGN = {
-    PLN: "zł",
-    USD: "$",
-};
-
-export { CURRENCIES, CURRENCY_SIGN };

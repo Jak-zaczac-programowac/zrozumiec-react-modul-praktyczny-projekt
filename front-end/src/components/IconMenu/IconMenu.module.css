@@ -1,31 +1,24 @@
-.icon {
-    width: 24px;
-    height: 24px;
+.iconMenu {
+    display: flex;
+    gap: 1rem;
 }
 
-.menu {
-    composes: horizontal-list from "../../styles/Utils.module.css";
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.cart {
+.iconMenu li {
     position: relative;
 }
 
-.activeItem {
+.numberOfProducts {
     position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: var(--color-yellow);
+    border-radius: 50%;
+    font-size: 0.5rem;
+    font-weight: 600;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25px;
-    height: 25px;
-    background-color: var(--color-yellow);
-    color: var(--color-default);
-    border-radius: 50%;
-    font-weight: 600;
-    font-size: 0.75rem;
-    transform: scale(0.75);
-    right: -10px;
-    bottom: -10px;
 }

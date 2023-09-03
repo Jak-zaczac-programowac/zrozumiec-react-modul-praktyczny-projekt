@@ -1,12 +1,10 @@
 import styles from "./CurrencySelector.module.css";
-
-function CurrencySelector() {
+import { CURRENCIES } from "../../constants/currencies";
+export function CurrencySelector() {
     return (
         <select className={styles.currencySelector}>
-            <option value="PLN">PLN</option>
-            <option value="USD">USD</option>
+            <option value={CURRENCIES.PLN}>{CURRENCIES.PLN}</option>
+            <option value={CURRENCIES.USD}>{CURRENCIES.USD}</option>
         </select>
     );
 }
-
-export { CurrencySelector };

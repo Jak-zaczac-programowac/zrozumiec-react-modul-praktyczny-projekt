@@ -1,12 +1,12 @@
-:root {
-    --default-font-size: 16px;
-    --default-font-family: Arial, Helvetica, sans-serif;
+body {
+    --font-size-default: 16px;
+    --font-family-default: Helvetica, Arial, sans-serif;
 
-    --color-default: #222020;
-    --color-default-grey: #7a7a7a;
+    --color-text-default: #222020;
+    --color-text-grey: #7a7a7a;
     --color-yellow: #ffde00;
     --color-white: #ffffff;
+    --color-grey: #f4f4f4;
     --color-theme-main: #056943;
-    --color-theme-price: #c60c0c;
-    --color-theme-gray: #f4f4f4;
+    --color-price: #c60c0c;
 }

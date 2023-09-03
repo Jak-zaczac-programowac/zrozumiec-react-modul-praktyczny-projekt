@@ -1,7 +1,8 @@
 import styles from "./TopBar.module.css";
-
-function TopBar({ children }) {
-    return <div className={styles.bar}>{children}</div>;
+export function TopBar({ children }) {
+    return (
+        <div className={styles.topBarWrapper}>
+            <div className={styles.topBar}>{children}</div>
+        </div>
+    );
 }
-
-export { TopBar };

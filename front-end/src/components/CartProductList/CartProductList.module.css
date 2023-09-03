@@ -1,7 +1,0 @@
-.container {
-    background-color: var(--color-theme-gray);
-    margin-top: 1rem;
-    padding: 1rem;
-    padding-top: 0;
-    flex-basis: 70%;
-}

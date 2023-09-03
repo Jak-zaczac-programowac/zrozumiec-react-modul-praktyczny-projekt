@@ -1,23 +1,17 @@
-.menu {
-    composes: horizontal-list from "../../styles/Utils.module.css";
+.mainMenu {
+    display: flex;
+    gap: 1rem;
 }
 
-.menuItem {
-    font-size: 1rem;
-    display: inline-block;
-    padding: 1rem 0;
-    color: var(--color-default-grey);
-    text-decoration: none;
-    font-weight: 600;
+.mainMenu a {
     text-transform: uppercase;
-    transition: border-bottom, color 0.3s ease;
+    font-weight: 600;
+    padding: 1rem 0;
+    display: block;
+    color: var(--color-text-grey);
 }
 
-.menuItem:global(.active),
-.menuItem:hover {
-    color: var(--color-default);
-}
-
-.menuItem:global(.active) {
-    border-bottom: 3px solid var(--color-default);
+.mainMenu a:global(.active) {
+    color: var(--color-text-default);
+    border-bottom: 3px solid var(--color-text-default);
 }

@@ -1,19 +1,19 @@
-import { NavLink } from "react-router-dom";
 import styles from "./MainMenu.module.css";
-import { GENDERS } from "../../constants/productCategories";
+import { NavLink } from "react-router-dom";
+import { GENDERS } from "../../constants/categories";
 
-function MainMenu() {
+export function MainMenu() {
     return (
-        <ul className={styles.menu}>
-            {GENDERS.map(({ path, categoryName }) => (
-                <li key={path}>
-                    <NavLink className={styles.menuItem} to={`/${path}`}>
-                        {categoryName}
-                    </NavLink>
-                </li>
-            ))}
+        <ul className={styles.mainMenu}>
+            {GENDERS.map((gender) => {
+                return (
+                    <li key={gender.path}>
+                        <NavLink to={gender.path}>
+                            {gender.categoryName}
+                        </NavLink>
+                    </li>
+                );
+            })}
         </ul>
     );
 }
-
-export { MainMenu };

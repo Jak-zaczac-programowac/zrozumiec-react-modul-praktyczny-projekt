@@ -1,4 +1,0 @@
-1. Kilka załozen:
-    a) w styled components uzywamy notacji camelCase,
-    b) do stylowania podchodzimy dosc luzno. Tam gdzie trzeba wyodrebnic jakis element to uzywamy klas, gdy nie to uzywamy selektorow. I tak mamy enkapsulacje
-    c) w operacjach na arrayach w jsx uzywamy desctructuringu na parametrze listy
