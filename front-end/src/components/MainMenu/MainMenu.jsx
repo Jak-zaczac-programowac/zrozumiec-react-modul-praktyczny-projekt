@@ -5,15 +5,11 @@ import { GENDERS } from "../../constants/categories";
 export function MainMenu() {
     return (
         <ul className={styles.mainMenu}>
-            {GENDERS.map((gender) => {
-                return (
-                    <li key={gender.path}>
-                        <NavLink to={gender.path}>
-                            {gender.categoryName}
-                        </NavLink>
-                    </li>
-                );
-            })}
+            {GENDERS.map(({ path, categoryName }) => (
+                <li key={path}>
+                    <NavLink to={path}>{categoryName}</NavLink>
+                </li>
+            ))}
         </ul>
     );
 }

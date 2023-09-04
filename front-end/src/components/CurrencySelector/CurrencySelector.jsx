@@ -1,5 +1,6 @@
-import styles from "./CurrencySelector.module.css";
 import { CURRENCIES } from "../../constants/currencies";
+import styles from "./CurrencySelector.module.css";
+
 export function CurrencySelector() {
     return (
         <select className={styles.currencySelector}>

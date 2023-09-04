@@ -18,13 +18,13 @@ export const CATEGORIES = [
         categoryName: "Odzież",
         path: "odziez",
     },
-    { categoryName: "Obuwie", path: "obuwie" },
+    {
+        categoryName: "Obuwie",
+        path: "obuwie",
+    },
     {
         categoryName: "Akcesoria",
         path: "akcesoria",
     },
-    {
-        categoryName: "Sport",
-        path: "sport",
-    },
+    { categoryName: "Sport", path: "sport" },
 ];

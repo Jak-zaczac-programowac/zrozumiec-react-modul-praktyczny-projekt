@@ -1,22 +1,25 @@
 .categoryMenu {
     background-color: var(--color-theme-main);
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .categoryMenu ul {
     display: flex;
+    gap: 1rem;
+    padding: 0 1rem;
+
     width: 100%;
     max-width: 100rem;
-    gap: 1rem;
-    padding: 1rem;
+    margin: 0 auto;
 }
 
 .categoryMenu ul a {
     color: var(--color-white);
+    padding: 1rem 0;
+    display: block;
 }
 
-.categoryMenu ul a:global(.active) {
+.categoryMenu a:global(.active) {
+    font-weight: 700;
     text-decoration: underline;
 }

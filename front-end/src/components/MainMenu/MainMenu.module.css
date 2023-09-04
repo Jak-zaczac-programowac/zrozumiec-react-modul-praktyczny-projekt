@@ -1,14 +1,15 @@
 .mainMenu {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
-.mainMenu a {
+.mainMenu li a {
     text-transform: uppercase;
-    font-weight: 600;
+    color: var(--color-text-grey);
     padding: 1rem 0;
     display: block;
-    color: var(--color-text-grey);
+    font-weight: 700;
 }
 
 .mainMenu a:global(.active) {

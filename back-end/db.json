@@ -14,7 +14,9 @@
                     "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-                ]
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+                "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
             },
             {
                 "id": 2,
@@ -44,7 +46,9 @@
                     "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-                ]
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+                "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
             },
             {
                 "id": 4,
@@ -59,7 +63,9 @@
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-                ]
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+                "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
             }
         ],
         "heroImageUrl": "http://localhost:3000/product-photos/women.jpg"
@@ -79,7 +85,9 @@
                     "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-                ]
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+                "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
             },
             {
                 "id": 2,
@@ -94,7 +102,9 @@
                     "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-                ]
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+                "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
             },
             {
                 "id": 3,
@@ -144,7 +154,9 @@
                     "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-                ]
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+                "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
             },
             {
                 "id": 2,
@@ -159,7 +171,9 @@
                     "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-                ]
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+                "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
             },
             {
                 "id": 3,
@@ -174,7 +188,9 @@
                     "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-                ]
+                ],
+                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+                "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
             },
             {
                 "id": 4,
@@ -209,7 +225,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 2,
@@ -224,7 +242,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 3,
@@ -239,7 +259,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 4,
@@ -254,7 +276,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 5,
@@ -269,7 +293,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 6,
@@ -284,7 +310,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 7,
@@ -299,7 +327,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 8,
@@ -314,7 +344,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 9,
@@ -329,7 +361,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 10,
@@ -344,7 +378,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 11,
@@ -359,7 +395,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 12,
@@ -374,7 +412,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 13,
@@ -389,7 +429,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 14,
@@ -404,7 +446,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 15,
@@ -419,7 +463,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 16,
@@ -434,7 +480,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 17,
@@ -449,7 +497,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 18,
@@ -464,7 +514,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 19,
@@ -479,7 +531,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 20,
@@ -494,7 +548,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 21,
@@ -509,7 +565,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 22,
@@ -539,7 +597,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 24,
@@ -554,7 +614,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         },
         {
             "id": 25,
@@ -569,7 +631,9 @@
                 "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+            "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?"
         }
     ]
 }
