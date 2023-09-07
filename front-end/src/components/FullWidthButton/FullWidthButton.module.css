@@ -8,3 +8,7 @@
     background: none;
     background-color: var(--color-theme-main);
 }
+
+.black {
+    background-color: var(--color-text-default);
+}

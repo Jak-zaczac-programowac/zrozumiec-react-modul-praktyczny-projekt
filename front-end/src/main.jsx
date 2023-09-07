@@ -6,11 +6,12 @@ import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { MainPage } from "./views/MainPage/MainPage";
 import { Favourites } from "./views/Favourites/Favourites";
+import { Cart } from "./views/Cart/Cart";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Favourites />,
+        element: <MainPage />,
     },
 ]);
 
