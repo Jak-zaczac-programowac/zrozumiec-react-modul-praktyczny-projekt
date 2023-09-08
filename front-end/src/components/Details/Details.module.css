@@ -1,0 +1,32 @@
+.details {
+    flex: 1;
+    padding-right: 1rem;
+}
+.details h2 {
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.productName {
+    font-weight: 700;
+}
+
+.price {
+    color: var(--color-price);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.extraInfo {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.extraInfo li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}

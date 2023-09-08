@@ -1,0 +1,22 @@
+.photos {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.thumbnails img {
+    margin-bottom: 1rem;
+    width: 85px;
+    height: 120px;
+    display: block;
+}
+
+.thumbnails img.active {
+    border: 2px solid var(--color-text-default);
+}
+
+.mainPhoto {
+    width: 500px;
+    height: 700px;
+}
