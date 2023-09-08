@@ -1,0 +1,11 @@
+.products {
+    width: 100%;
+}
+
+.productsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 2rem;
+}
