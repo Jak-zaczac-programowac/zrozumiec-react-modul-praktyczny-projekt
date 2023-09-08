@@ -10,6 +10,8 @@ import { Cart } from "./views/Cart/Cart";
 import { ProductsList } from "./views/ProductsList/ProductsList";
 import { ProductDetails } from "./views/ProductDetails/ProductDetails";
 import { Layout } from "./components/Layout/Layout";
+import { mainPageLoader } from "./api/mainPageLoader";
+import { productListLoader } from "./api/productListLoader";
 
 const router = createBrowserRouter([
     {
@@ -23,6 +25,16 @@ const router = createBrowserRouter([
             {
                 path: "/ulubione",
                 element: <Favourites />,
+            },
+            {
+                path: "/:gender?",
+                element: <MainPage />,
+                loader: mainPageLoader,
+            },
+            {
+                path: "/:gender/:category/:subcategory?",
+                element: <ProductsList />,
+                loader: productListLoader,
             },
         ],
     },

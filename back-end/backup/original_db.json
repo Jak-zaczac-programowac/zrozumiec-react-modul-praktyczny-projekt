@@ -2,63 +2,63 @@
     "women": {
         "bestsellers": [
             {
-                "id": 1,
-                "gender": "men",
-                "category": "odziez",
-                "subCategory": "koszulki",
-                "name": "T-Shirt",
-                "brand": "Top Brand",
+                "id": 26,
+                "gender": "women",
+                "category": "obuwie",
+                "subcategory": "eleganckie",
+                "name": "Szpilki",
+                "brand": "Test producent",
                 "pricePLN": 49,
                 "priceUSD": 10,
-                "images": [
-                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+                "photos": [
+                    "http://localhost:3000/product-photos/women-shoes-1.jpg",
+                    "http://localhost:3000/product-photos/women-shoes-2.jpg",
+                    "http://localhost:3000/product-photos/women-shoes-3.jpg"
                 ]
             },
             {
-                "id": 2,
-                "gender": "men",
-                "category": "odziez",
-                "subCategory": "koszulki",
-                "name": "T-Shirt",
-                "brand": "Top Brand",
-                "pricePLN": 49,
-                "priceUSD": 10,
-                "images": [
-                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+                "id": 27,
+                "gender": "women",
+                "category": "obuwie",
+                "subcategory": "eleganckie",
+                "name": "Szpilki 2",
+                "brand": "Inny proucent",
+                "pricePLN": 149,
+                "priceUSD": 39,
+                "photos": [
+                    "http://localhost:3000/product-photos/women-shoes-2.jpg",
+                    "http://localhost:3000/product-photos/women-shoes-3.jpg",
+                    "http://localhost:3000/product-photos/women-shoes-1.jpg"
                 ]
             },
             {
-                "id": 3,
-                "gender": "men",
+                "id": 28,
+                "gender": "women",
                 "category": "odziez",
-                "subCategory": "koszulki",
-                "name": "T-shirt 2",
-                "brand": "Sun Tzu",
-                "pricePLN": 199,
-                "priceUSD": 49,
-                "images": [
-                    "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
+                "subcategory": "swetry",
+                "name": "Biały Sweter",
+                "brand": "Sun zi",
+                "pricePLN": 299,
+                "priceUSD": 59,
+                "photos": [
+                    "http://localhost:3000/product-photos/women-sweater-1.jpg",
+                    "http://localhost:3000/product-photos/women-sweater-1.jpg",
+                    "http://localhost:3000/product-photos/women-sweater-1.jpg"
                 ]
             },
             {
-                "id": 4,
-                "gender": "men",
+                "id": 29,
+                "gender": "women",
                 "category": "odziez",
-                "subCategory": "koszulki",
-                "name": "T-shirt 3",
-                "brand": "Sun Tzu",
-                "pricePLN": 199,
-                "priceUSD": 49,
-                "images": [
-                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
+                "subcategory": "spodnie",
+                "name": "Spodnie",
+                "brand": "Shin-tzu",
+                "pricePLN": 149,
+                "priceUSD": 39,
+                "photos": [
+                    "http://localhost:3000/product-photos/women-trousers-1.jpg",
+                    "http://localhost:3000/product-photos/women-trousers-2.jpg",
+                    "http://localhost:3000/product-photos/women-trousers-2.jpg"
                 ]
             }
         ],
@@ -70,12 +70,12 @@
                 "id": 1,
                 "gender": "men",
                 "category": "odziez",
-                "subCategory": "koszulki",
+                "subcategory": "koszulki",
                 "name": "T-Shirt",
                 "brand": "Top Brand",
                 "pricePLN": 49,
                 "priceUSD": 10,
-                "images": [
+                "photos": [
                     "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
@@ -85,12 +85,12 @@
                 "id": 2,
                 "gender": "men",
                 "category": "odziez",
-                "subCategory": "koszulki",
+                "subcategory": "koszulki",
                 "name": "T-Shirt",
                 "brand": "Top Brand",
                 "pricePLN": 49,
                 "priceUSD": 10,
-                "images": [
+                "photos": [
                     "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
@@ -100,12 +100,12 @@
                 "id": 3,
                 "gender": "men",
                 "category": "odziez",
-                "subCategory": "koszulki",
+                "subcategory": "koszulki",
                 "name": "T-shirt 2",
                 "brand": "Sun Tzu",
                 "pricePLN": 199,
                 "priceUSD": 49,
-                "images": [
+                "photos": [
                     "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
@@ -115,12 +115,12 @@
                 "id": 4,
                 "gender": "men",
                 "category": "odziez",
-                "subCategory": "koszulki",
+                "subcategory": "koszulki",
                 "name": "T-shirt 3",
                 "brand": "Sun Tzu",
                 "pricePLN": 199,
                 "priceUSD": 49,
-                "images": [
+                "photos": [
                     "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                     "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
@@ -132,76 +132,500 @@
     "children": {
         "bestsellers": [
             {
-                "id": 1,
-                "gender": "men",
-                "category": "odziez",
-                "subCategory": "koszulki",
-                "name": "T-Shirt",
-                "brand": "Top Brand",
-                "pricePLN": 49,
-                "priceUSD": 10,
-                "images": [
-                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
+                "id": 30,
+                "gender": "children",
+                "category": "obuwie",
+                "subcategory": "eleganckie",
+                "name": "Piękne butki",
+                "brand": "Producent 1",
+                "pricePLN": 499,
+                "priceUSD": 99,
+                "photos": [
+                    "http://localhost:3000/product-photos/children-shoes-1.jpg",
+                    "http://localhost:3000/product-photos/children-shoes-2.jpg",
+                    "http://localhost:3000/product-photos/children-shoes-3.jpg"
                 ]
             },
             {
-                "id": 2,
-                "gender": "men",
-                "category": "odziez",
-                "subCategory": "koszulki",
-                "name": "T-Shirt",
-                "brand": "Top Brand",
-                "pricePLN": 49,
-                "priceUSD": 10,
-                "images": [
-                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-                ]
-            },
-            {
-                "id": 3,
-                "gender": "men",
-                "category": "odziez",
-                "subCategory": "koszulki",
-                "name": "T-shirt 2",
-                "brand": "Sun Tzu",
+                "id": 31,
+                "gender": "children",
+                "category": "obuwie",
+                "subcategory": "sneakersy",
+                "name": "Szybkie butki",
+                "brand": "Producent 2",
                 "pricePLN": 199,
-                "priceUSD": 49,
-                "images": [
-                    "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
+                "priceUSD": 39,
+                "photos": [
+                    "http://localhost:3000/product-photos/children-shoes-2.jpg",
+                    "http://localhost:3000/product-photos/children-shoes-1.jpg",
+                    "http://localhost:3000/product-photos/children-shoes-3.jpg"
                 ]
             },
             {
-                "id": 4,
-                "gender": "men",
+                "id": 32,
+                "gender": "children",
                 "category": "odziez",
-                "subCategory": "koszulki",
-                "name": "T-shirt 3",
-                "brand": "Sun Tzu",
-                "pricePLN": 199,
-                "priceUSD": 49,
-                "images": [
-                    "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                    "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
+                "subcategory": "spodnie",
+                "name": "Niebieskie spodnie",
+                "brand": "Sun zi",
+                "pricePLN": 299,
+                "priceUSD": 59,
+                "photos": [
+                    "http://localhost:3000/product-photos/children-trousers-1.jpg",
+                    "http://localhost:3000/product-photos/children-trousers-2.jpg",
+                    "http://localhost:3000/product-photos/children-trousers-3.jpg"
+                ]
+            },
+            {
+                "id": 33,
+                "gender": "children",
+                "category": "odziez",
+                "subcategory": "spodnie",
+                "name": "Różowe spodnie",
+                "brand": "Sun zi",
+                "pricePLN": 599,
+                "priceUSD": 119,
+                "photos": [
+                    "http://localhost:3000/product-photos/children-trousers-2.jpg",
+                    "http://localhost:3000/product-photos/children-trousers-3.jpg",
+                    "http://localhost:3000/product-photos/children-trousers-1.jpg"
                 ]
             }
         ],
         "heroImageUrl": "http://localhost:3000/product-photos/children.jpg"
     },
-    "favourites": [],
     "products": [
+        {
+            "id": 2,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-Shirt",
+            "brand": "Top Brand",
+            "pricePLN": 49,
+            "priceUSD": 10,
+            "photos": [
+                "/product-photos/man-t-shirt-1.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-3.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 2",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 3",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-1.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 4",
+            "brand": "Sun Tzu",
+            "pricePLN": 129,
+            "priceUSD": 39,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-Shirt",
+            "brand": "Top Brand",
+            "pricePLN": 49,
+            "priceUSD": 10,
+            "photos": [
+                "/product-photos/man-t-shirt-1.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-3.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 2",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 3",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-1.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 4",
+            "brand": "Sun Tzu",
+            "pricePLN": 129,
+            "priceUSD": 39,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-Shirt",
+            "brand": "Top Brand",
+            "pricePLN": 49,
+            "priceUSD": 10,
+            "photos": [
+                "/product-photos/man-t-shirt-1.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-3.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 2",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 3",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-1.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 4",
+            "brand": "Sun Tzu",
+            "pricePLN": 129,
+            "priceUSD": 39,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-Shirt",
+            "brand": "Top Brand",
+            "pricePLN": 49,
+            "priceUSD": 10,
+            "photos": [
+                "/product-photos/man-t-shirt-1.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-3.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 2",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 3",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-1.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 4",
+            "brand": "Sun Tzu",
+            "pricePLN": 129,
+            "priceUSD": 39,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-Shirt",
+            "brand": "Top Brand",
+            "pricePLN": 49,
+            "priceUSD": 10,
+            "photos": [
+                "/product-photos/man-t-shirt-1.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-3.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 2",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 3",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-1.jpg"
+            ]
+        },
+        {
+            "id": 21,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 4",
+            "brand": "Sun Tzu",
+            "pricePLN": 129,
+            "priceUSD": 39,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-Shirt",
+            "brand": "Top Brand",
+            "pricePLN": 49,
+            "priceUSD": 10,
+            "photos": [
+                "/product-photos/man-t-shirt-1.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-3.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 2",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 3",
+            "brand": "Sun Tzu",
+            "pricePLN": 199,
+            "priceUSD": 49,
+            "photos": [
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg",
+                "/product-photos/man-t-shirt-1.jpg"
+            ]
+        },
+        {
+            "id": 25,
+            "gender": "men",
+            "category": "odziez",
+            "subcategory": "koszulki",
+            "productName": "T-shirt 4",
+            "brand": "Sun Tzu",
+            "pricePLN": 129,
+            "priceUSD": 39,
+            "photos": [
+                "/product-photos/man-t-shirt-4.jpg",
+                "/product-photos/man-t-shirt-3.jpg",
+                "/product-photos/man-t-shirt-2.jpg"
+            ]
+        },
+        {
+            "id": 26,
+            "gender": "women",
+            "category": "obuwie",
+            "subcategory": "eleganckie",
+            "name": "Szpilki",
+            "brand": "Test producent",
+            "pricePLN": 49,
+            "priceUSD": 10,
+            "photos": [
+                "http://localhost:3000/product-photos/women-shoes-1.jpg",
+                "http://localhost:3000/product-photos/women-shoes-2.jpg",
+                "http://localhost:3000/product-photos/women-shoes-3.jpg"
+            ]
+        },
+        {
+            "id": 27,
+            "gender": "women",
+            "category": "obuwie",
+            "subcategory": "eleganckie",
+            "name": "Szpilki 2",
+            "brand": "Inny proucent",
+            "pricePLN": 149,
+            "priceUSD": 39,
+            "photos": [
+                "http://localhost:3000/product-photos/women-shoes-2.jpg",
+                "http://localhost:3000/product-photos/women-shoes-3.jpg",
+                "http://localhost:3000/product-photos/women-shoes-1.jpg"
+            ]
+        },
+        {
+            "id": 28,
+            "gender": "women",
+            "category": "odziez",
+            "subcategory": "swetry",
+            "name": "Biały Sweter",
+            "brand": "Sun zi",
+            "pricePLN": 299,
+            "priceUSD": 59,
+            "photos": [
+                "http://localhost:3000/product-photos/women-sweater-1.jpg",
+                "http://localhost:3000/product-photos/women-sweater-1.jpg",
+                "http://localhost:3000/product-photos/women-sweater-1.jpg"
+            ]
+        },
+        {
+            "id": 29,
+            "gender": "women",
+            "category": "odziez",
+            "subcategory": "spodnie",
+            "name": "Spodnie",
+            "brand": "Shin-tzu",
+            "pricePLN": 149,
+            "priceUSD": 39,
+            "photos": [
+                "http://localhost:3000/product-photos/women-trousers-1.jpg",
+                "http://localhost:3000/product-photos/women-trousers-2.jpg",
+                "http://localhost:3000/product-photos/women-trousers-2.jpg"
+            ]
+        }
+    ],
+    "heroImageUrl": "http://localhost:3000/product-photos/women.jpg"
+},
+"men": {
+    "bestsellers": [
         {
             "id": 1,
             "gender": "men",
             "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-Shirt",
+            "subcategory": "koszulki",
+            "name": "T-Shirt",
             "brand": "Top Brand",
             "pricePLN": 49,
             "priceUSD": 10,
@@ -215,8 +639,8 @@
             "id": 2,
             "gender": "men",
             "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-Shirt",
+            "subcategory": "koszulki",
+            "name": "T-Shirt",
             "brand": "Top Brand",
             "pricePLN": 49,
             "priceUSD": 10,
@@ -230,8 +654,8 @@
             "id": 3,
             "gender": "men",
             "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 2",
+            "subcategory": "koszulki",
+            "name": "T-shirt 2",
             "brand": "Sun Tzu",
             "pricePLN": 199,
             "priceUSD": 49,
@@ -245,8 +669,8 @@
             "id": 4,
             "gender": "men",
             "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 3",
+            "subcategory": "koszulki",
+            "name": "T-shirt 3",
             "brand": "Sun Tzu",
             "pricePLN": 199,
             "priceUSD": 49,
@@ -254,321 +678,6 @@
                 "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
                 "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
-        },
-        {
-            "id": 5,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 4",
-            "brand": "Sun Tzu",
-            "pricePLN": 129,
-            "priceUSD": 39,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 6,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-Shirt",
-            "brand": "Top Brand",
-            "pricePLN": 49,
-            "priceUSD": 10,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
-        },
-        {
-            "id": 7,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 2",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 8,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 3",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
-        },
-        {
-            "id": 9,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 4",
-            "brand": "Sun Tzu",
-            "pricePLN": 129,
-            "priceUSD": 39,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 10,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-Shirt",
-            "brand": "Top Brand",
-            "pricePLN": 49,
-            "priceUSD": 10,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
-        },
-        {
-            "id": 11,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 2",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 12,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 3",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
-        },
-        {
-            "id": 13,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 4",
-            "brand": "Sun Tzu",
-            "pricePLN": 129,
-            "priceUSD": 39,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 14,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-Shirt",
-            "brand": "Top Brand",
-            "pricePLN": 49,
-            "priceUSD": 10,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
-        },
-        {
-            "id": 15,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 2",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 16,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 3",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
-        },
-        {
-            "id": 17,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 4",
-            "brand": "Sun Tzu",
-            "pricePLN": 129,
-            "priceUSD": 39,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 18,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-Shirt",
-            "brand": "Top Brand",
-            "pricePLN": 49,
-            "priceUSD": 10,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
-        },
-        {
-            "id": 19,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 2",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 20,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 3",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
-        },
-        {
-            "id": 21,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 4",
-            "brand": "Sun Tzu",
-            "pricePLN": 129,
-            "priceUSD": 39,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 22,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-Shirt",
-            "brand": "Top Brand",
-            "pricePLN": 49,
-            "priceUSD": 10,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg"
-            ]
-        },
-        {
-            "id": 23,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 2",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
-            ]
-        },
-        {
-            "id": 24,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 3",
-            "brand": "Sun Tzu",
-            "pricePLN": 199,
-            "priceUSD": 49,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-1.jpg"
-            ]
-        },
-        {
-            "id": 25,
-            "gender": "men",
-            "category": "odziez",
-            "subCategory": "koszulki",
-            "productName": "T-shirt 4",
-            "brand": "Sun Tzu",
-            "pricePLN": 129,
-            "priceUSD": 39,
-            "photos": [
-                "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
-                "http://localhost:3000/product-photos/man-t-shirt-2.jpg"
             ]
         }
     ]
