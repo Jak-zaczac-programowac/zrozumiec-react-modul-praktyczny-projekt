@@ -1,5 +1,4 @@
 import { FavouritesList } from "../../components/FavouritesList/FavouritesList";
-import { Layout } from "../../components/Layout/Layout";
 
 export function Favourites() {
     const favouriteProducts = [
@@ -42,9 +41,5 @@ export function Favourites() {
                 "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibusdam voluptatem vitae voluptatum optio ab alias quisquam? Soluta ad excepturi nihil facere perspiciatis?",
         },
     ];
-    return (
-        <Layout>
-            <FavouritesList products={favouriteProducts} />
-        </Layout>
-    );
+    return <FavouritesList products={favouriteProducts} />;
 }

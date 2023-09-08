@@ -9,11 +9,22 @@ import { Favourites } from "./views/Favourites/Favourites";
 import { Cart } from "./views/Cart/Cart";
 import { ProductsList } from "./views/ProductsList/ProductsList";
 import { ProductDetails } from "./views/ProductDetails/ProductDetails";
+import { Layout } from "./components/Layout/Layout";
 
 const router = createBrowserRouter([
     {
-        path: "/",
-        element: <ProductDetails />,
+        path: "",
+        element: <Layout />,
+        children: [
+            {
+                path: "/koszyk",
+                element: <Cart />,
+            },
+            {
+                path: "/ulubione",
+                element: <Favourites />,
+            },
+        ],
     },
 ]);
 
