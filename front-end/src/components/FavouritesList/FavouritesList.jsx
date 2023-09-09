@@ -1,13 +1,16 @@
 import styles from "./FavouritesList.module.css";
 import { FavouriteProduct } from "../FavouriteProduct/FavouriteProduct";
 
-export function FavouritesList({ products }) {
+export function FavouritesList({ favouriteProducts }) {
     return (
         <div className={styles.favouritesList}>
             <h2>Ulubione</h2>
             <div>
-                {products.map((product) => (
-                    <FavouriteProduct key={product.id} product={product} />
+                {favouriteProducts.map((favouriteProduct) => (
+                    <FavouriteProduct
+                        key={favouriteProduct.id}
+                        favouriteProduct={favouriteProduct}
+                    />
                 ))}
             </div>
         </div>
