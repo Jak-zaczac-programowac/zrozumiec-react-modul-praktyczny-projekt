@@ -6,14 +6,15 @@ import { Pagination } from "../../components/Pagination/Pagination";
 import { Products } from "../../components/Products/Products";
 
 export function ProductsList() {
-    const products = useLoaderData();
+    const { products, pages } = useLoaderData();
+
     return (
         <FlexContainer>
             <ExpandableMenu />
             <div>
                 <Breadcrumbs />
                 <Products products={products} />
-                <Pagination numberOfPages={5} />
+                <Pagination numberOfPages={pages} />
             </div>
         </FlexContainer>
     );
