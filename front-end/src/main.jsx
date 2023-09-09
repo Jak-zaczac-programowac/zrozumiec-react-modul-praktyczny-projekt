@@ -13,6 +13,7 @@ import { Layout } from "./components/Layout/Layout";
 import { mainPageLoader } from "./api/mainPageLoader";
 import { productListLoader } from "./api/productListLoader";
 import { productLoader } from "./api/productLoader";
+import { addProductToFavouritesAction } from "./api/addProductToFavouritesAction";
 
 const router = createBrowserRouter([
     {
@@ -31,11 +32,13 @@ const router = createBrowserRouter([
                 path: "/:gender?",
                 element: <MainPage />,
                 loader: mainPageLoader,
+                shouldRevalidate: () => false,
             },
             {
                 path: "/:gender/:category/:subcategory?",
                 element: <ProductsList />,
                 loader: productListLoader,
+                shouldRevalidate: () => false,
             },
             {
                 path: "/:gender/:category/:subcategory/:productId",
@@ -43,6 +46,10 @@ const router = createBrowserRouter([
                 loader: productLoader,
             },
         ],
+    },
+    {
+        path: "/add-to-favourites/:productId",
+        action: addProductToFavouritesAction,
     },
 ]);
 

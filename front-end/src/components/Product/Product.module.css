@@ -27,6 +27,9 @@
 
     background-image: url("../../assets/heart.svg");
     background-repeat: no-repeat;
+
+    background-color: transparent;
+    border: none;
 }
 
 .heart:hover {
