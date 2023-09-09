@@ -1,5 +1,6 @@
 import styles from "./Product.module.css";
 import { Link, Form, useFetcher } from "react-router-dom";
+import { Price } from "../Price/Price";
 
 const ENDPOINT_TO_PATH_MAPPING = {
     men: "mezczyzna",
@@ -9,7 +10,6 @@ const ENDPOINT_TO_PATH_MAPPING = {
 
 export function Product({ product }) {
     const { submit } = useFetcher();
-
     return (
         <Link
             to={`/${ENDPOINT_TO_PATH_MAPPING[product.gender]}/${
@@ -33,7 +33,9 @@ export function Product({ product }) {
             </Form>
             <img src={product.photos[0]} />
             <h3>{product.productName}</h3>
-            <p>{product.pricePLN}zł</p>
+            <p>
+                <Price product={product} />
+            </p>
         </Link>
     );
 }

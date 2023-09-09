@@ -35,13 +35,11 @@ const router = createBrowserRouter([
                 path: "/:gender?",
                 element: <MainPage />,
                 loader: mainPageLoader,
-                shouldRevalidate: () => false,
             },
             {
                 path: "/:gender/:category/:subcategory?",
                 element: <ProductsList />,
                 loader: productListLoader,
-                shouldRevalidate: () => false,
             },
             {
                 path: "/:gender/:category/:subcategory/:productId",
