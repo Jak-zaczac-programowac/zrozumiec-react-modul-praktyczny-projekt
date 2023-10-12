@@ -14,6 +14,7 @@
 }
 
 .product p {
+    margin-bottom: 1rem;
     color: var(--color-price);
 }
 
@@ -23,7 +24,7 @@
     left: 0.5rem;
 
     width: 24px;
-    height: 22px;
+    height: 24px;
 
     background-image: url("../../assets/heart.svg");
     background-repeat: no-repeat;

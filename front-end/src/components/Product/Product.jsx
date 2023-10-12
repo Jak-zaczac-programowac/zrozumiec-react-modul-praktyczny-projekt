@@ -1,5 +1,5 @@
 import styles from "./Product.module.css";
-import { Link, Form, useFetcher } from "react-router-dom";
+import { Link, useFetcher } from "react-router-dom";
 import { Price } from "../Price/Price";
 
 const ENDPOINT_TO_PATH_MAPPING = {
@@ -9,7 +9,7 @@ const ENDPOINT_TO_PATH_MAPPING = {
 };
 
 export function Product({ product }) {
-    const { submit } = useFetcher();
+    const { Form } = useFetcher();
     return (
         <Link
             to={`/${ENDPOINT_TO_PATH_MAPPING[product.gender]}/${
@@ -17,14 +17,7 @@ export function Product({ product }) {
             }/${product.subcategory}/${product.id}`}
             className={styles.product}
         >
-            <Form
-                onSubmit={() => {
-                    submit(null, {
-                        method: "POST",
-                        action: `/add-to-favourites/${product.id}`,
-                    });
-                }}
-            >
+            <Form method="POST" action={`/add-to-favourites/${product.id}`}>
                 <button
                     type="submit"
                     className={styles.heart}
