@@ -1,0 +1,9 @@
+.bestsellersHeader {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.productsWrapper {
+    display: flex;
+    justify-content: space-between;
+}
