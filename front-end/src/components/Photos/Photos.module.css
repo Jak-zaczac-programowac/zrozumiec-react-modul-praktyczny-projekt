@@ -1,0 +1,20 @@
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.thumbnails img {
+    width: 85px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.thumbnails img.active {
+    border: 2px solid var(--color-text-default);
+}
+
+.mainPhoto {
+    width: 500px;
+    height: 700px;
+}
