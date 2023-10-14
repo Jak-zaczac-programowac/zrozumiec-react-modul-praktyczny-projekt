@@ -1,0 +1,33 @@
+.expandableMenu {
+    width: 11rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.expandableMenu p {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.expandableMenu li {
+    margin-bottom: 0.5rem;
+}
+
+.expandableMenu li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expandableMenu li ul {
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.expandableMenu a:global(.active) {
+    font-weight: 700;
+}
+
+.expanded {
+    transform: rotate(180deg);
+}
