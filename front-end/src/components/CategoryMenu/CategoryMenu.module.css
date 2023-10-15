@@ -16,6 +16,6 @@
     color: var(--color-white);
 }
 
-.categoryMenu ul li a:active(.global) {
+.categoryMenu ul li a:global(.active) {
     text-decoration: underline;
 }
