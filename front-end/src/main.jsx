@@ -1,5 +1,3 @@
-import "./styles/theme.css";
-import "./styles/globals.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
